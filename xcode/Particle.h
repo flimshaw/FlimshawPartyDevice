@@ -9,8 +9,11 @@
 #pragma once
 #include "cinder/Channel.h"
 #include "cinder/Vector.h"
-
+#include "cinder/gl/gl.h"
+#include "cinder/gl/Texture.h"
 #include <vector>
+
+using namespace ci;
 
 class Particle {
 public:
@@ -18,7 +21,6 @@ public:
 	Particle( ci::Vec2f );
 	void update();
 	void draw();
-
 	
 	ci::Vec2f	mLoc;
 	ci::Vec2f	mDir;

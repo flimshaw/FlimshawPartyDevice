@@ -9,6 +9,8 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/Rand.h"
 #include "cinder/Vector.h"
+#include "cinder/ImageIO.h"
+#include "cinder/Thread.h"
 #include "ParticleController.h"
 
 using namespace ci;
@@ -18,10 +20,20 @@ ParticleController::ParticleController()
 {
 }
 
-void ParticleController::update()
+void loadSurfaceUrl( Surface *destSurface, const Url &url )
 {
+	*destSurface = Surface( loadImage( loadUrl( url ) ) );
+}
+
+void ParticleController::update()
+{	
+	
+	// if we're running low on particles, add some more
+	if(mParticles.size() < 5) {
+		addParticles(5 - mParticles.size());
+	}
+	
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
-		
 		// clean up dead particles, and if they die birth new ones
 		if( p->mIsDead ) {
 			p = mParticles.erase( p );

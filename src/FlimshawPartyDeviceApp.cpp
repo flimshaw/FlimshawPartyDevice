@@ -7,9 +7,11 @@
 using namespace ci;
 using namespace ci::app;
 using namespace std;
+using std::list;
 
 class FlimshawPartyDeviceApp : public AppBasic {
   public:
+	void prepareSettings( Settings *settings );
 	void setup();
 	void mouseDown( MouseEvent event );	
 	void update();
@@ -19,9 +21,16 @@ class FlimshawPartyDeviceApp : public AppBasic {
 
 };
 
+void FlimshawPartyDeviceApp::prepareSettings( Settings *settings )
+{
+	//settings->setWindowSize( 800, 600 );
+	//settings->setFullScreen(true);
+	//settings->setFrameRate( 60.0f );
+}
+
 void FlimshawPartyDeviceApp::setup()
 {
-	mParticleController.addParticles( 2500 );
+
 }
 
 void FlimshawPartyDeviceApp::mouseDown( MouseEvent event )

@@ -1,7 +1,7 @@
 TFlimshawPartyDevice
 v7
 r0
-t311123787.981844
+t311176718.826933
 cCheck dependencies
 cProcessInfoPlistFile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
@@ -264,6 +264,24 @@ i<boost/config/select_stdlib_config.hpp>
 i<boost/config/select_platform_config.hpp>
 i<boost/config/suffix.hpp>
 
+N/Applications/cinder_0.8.2_mac/boost/boost/config/abi_prefix.hpp
+c00000000487C7EF000000000000002BA
+t1216118512
+s698
+i<boost/config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/config/abi_suffix.hpp
+c00000000487C7EF0000000000000030D
+t1216118512
+s781
+
+N/Applications/cinder_0.8.2_mac/boost/boost/config/auto_link.hpp
+c000000004C066AEC000000000000377F
+t1275489004
+s14207
+i<boost/config.hpp>
+i<boost/version.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/config/no_tr1/cmath.hpp
 c0000000048D38BD90000000000000346
 t1221823449
@@ -293,6 +311,12 @@ c00000000434FBDBA0000000000000E98
 t1129299386
 s3736
 i<unistd.h>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/config/requires_threads.hpp
+c000000003FE438870000000000000DB3
+t1071921287
+s3507
+i<boost/config.hpp>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/config/select_compiler_config.hpp
 c000000004BE6AB610000000000000FEE
@@ -339,6 +363,440 @@ N/Applications/cinder_0.8.2_mac/boost/boost/current_function.hpp
 c000000004749B9D700000000000005D2
 t1196014039
 s1490
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/adjust_functors.hpp
+c0000000047C5C1580000000000001706
+t1204142424
+s5894
+i"boost/date_time/date.hpp"
+i"boost/date_time/wrapping_int.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/c_time.hpp
+c000000004B4A27C30000000000000F56
+t1263151043
+s3926
+i<ctime>
+i<string>
+i<stdexcept>
+i<boost/throw_exception.hpp>
+i<boost/date_time/compiler_config.hpp>
+i<sys/time.h>
+i<time.h>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/compiler_config.hpp
+c00000000491B309100000000000018DB
+t1226518673
+s6363
+i<cstdlib>
+i<boost/config.hpp>
+i<boost/detail/workaround.hpp>
+i<boost/date_time/locale_config.hpp>
+i<boost/cstdint.hpp>
+i<locale>
+i<boost/config/auto_link.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/constrained_value.hpp
+c00000000491B30910000000000000FA9
+t1226518673
+s4009
+i<exception>
+i<stdexcept>
+i<boost/config.hpp>
+i<boost/throw_exception.hpp>
+i<boost/mpl/if.hpp>
+i<boost/type_traits/is_base_of.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date.hpp
+c000000004B4A27C30000000000001AAE
+t1263151043
+s6830
+i<boost/operators.hpp>
+i<boost/date_time/year_month_day.hpp>
+i<boost/date_time/special_defs.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date_clock_device.hpp
+c0000000047C5C1580000000000000880
+t1204142424
+s2176
+i"boost/date_time/c_time.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date_defs.hpp
+c0000000047C5C15800000000000002EC
+t1204142424
+s748
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date_duration.hpp
+c00000000491B30910000000000001119
+t1226518673
+s4377
+i<boost/operators.hpp>
+i<boost/date_time/special_defs.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date_duration_types.hpp
+c0000000047C5C1580000000000002031
+t1204142424
+s8241
+i<boost/date_time/int_adapter.hpp>
+i<boost/date_time/special_defs.hpp>
+i<boost/date_time/date_duration.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date_generators.hpp
+c00000000491B30910000000000003F7C
+t1226518673
+s16252
+i<stdexcept>
+i<sstream>
+i<boost/throw_exception.hpp>
+i<boost/date_time/date.hpp>
+i<boost/date_time/compiler_config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/date_iterator.hpp
+c0000000047C5C1580000000000000D2C
+t1204142424
+s3372
+i<iterator>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/dst_rules.hpp
+c0000000047C5C1580000000000003C7C
+t1204142424
+s15484
+i"boost/date_time/date_generators.hpp"
+i"boost/date_time/period.hpp"
+i"boost/date_time/date_defs.hpp"
+i<stdexcept>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/filetime_functions.hpp
+c000000004A2A51D90000000000001725
+t1244287449
+s5925
+i<boost/date_time/compiler_config.hpp>
+i<windows.h>
+i<boost/cstdint.hpp>
+i<boost/date_time/time.hpp>
+i<boost/date_time/date_defs.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/conversion.hpp
+c000000004C0FD9050000000000000842
+t1276107013
+s2114
+i<cstring>
+i<string>
+i<stdexcept>
+i<boost/throw_exception.hpp>
+i<boost/date_time/c_time.hpp>
+i<boost/date_time/special_defs.hpp>
+i<boost/date_time/gregorian/gregorian_types.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_calendar.hpp
+c000000004B4A27C3000000000000061F
+t1263151043
+s1567
+i<boost/cstdint.hpp>
+i<boost/date_time/gregorian/greg_weekday.hpp>
+i<boost/date_time/gregorian/greg_day_of_year.hpp>
+i<boost/date_time/gregorian_calendar.hpp>
+i<boost/date_time/gregorian/greg_ymd.hpp>
+i<boost/date_time/int_adapter.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_date.hpp
+c000000004B4A27C30000000000001190
+t1263151043
+s4496
+i<boost/throw_exception.hpp>
+i<boost/date_time/date.hpp>
+i<boost/date_time/special_defs.hpp>
+i<boost/date_time/gregorian/greg_calendar.hpp>
+i<boost/date_time/gregorian/greg_duration.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_day.hpp
+c0000000047C5C158000000000000070A
+t1204142424
+s1802
+i"boost/date_time/constrained_value.hpp"
+i<stdexcept>
+i<string>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_day_of_year.hpp
+c0000000047C5C1580000000000000431
+t1204142424
+s1073
+i"boost/date_time/constrained_value.hpp"
+i<stdexcept>
+i<string>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_duration.hpp
+c00000000491B30910000000000000F3A
+t1226518673
+s3898
+i<boost/date_time/date_duration.hpp>
+i<boost/date_time/int_adapter.hpp>
+i<boost/date_time/special_defs.hpp>
+i<boost/date_time/date_duration_types.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_duration_types.hpp
+c00000000491B309100000000000005AB
+t1226518673
+s1451
+i<boost/date_time/gregorian/greg_date.hpp>
+i<boost/date_time/int_adapter.hpp>
+i<boost/date_time/adjust_functors.hpp>
+i<boost/date_time/date_duration_types.hpp>
+i<boost/date_time/gregorian/greg_duration.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_month.hpp
+c0000000047C5C1580000000000000D9F
+t1204142424
+s3487
+i"boost/date_time/constrained_value.hpp"
+i"boost/date_time/date_defs.hpp"
+i"boost/shared_ptr.hpp"
+i"boost/date_time/compiler_config.hpp"
+i<stdexcept>
+i<string>
+i<map>
+i<algorithm>
+i<cctype>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_weekday.hpp
+c00000000491B30910000000000000786
+t1226518673
+s1926
+i"boost/date_time/constrained_value.hpp"
+i"boost/date_time/date_defs.hpp"
+i"boost/date_time/compiler_config.hpp"
+i<stdexcept>
+i<string>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_year.hpp
+c0000000047C5C158000000000000065C
+t1204142424
+s1628
+i"boost/date_time/constrained_value.hpp"
+i<stdexcept>
+i<string>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/greg_ymd.hpp
+c0000000047C5C1580000000000000388
+t1204142424
+s904
+i"boost/date_time/year_month_day.hpp"
+i"boost/date_time/special_defs.hpp"
+i"boost/date_time/gregorian/greg_day.hpp"
+i"boost/date_time/gregorian/greg_year.hpp"
+i"boost/date_time/gregorian/greg_month.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian/gregorian_types.hpp
+c0000000047C5C1580000000000000E5E
+t1204142424
+s3678
+i"boost/date_time/date.hpp"
+i"boost/date_time/period.hpp"
+i"boost/date_time/gregorian/greg_calendar.hpp"
+i"boost/date_time/gregorian/greg_duration.hpp"
+i"boost/date_time/gregorian/greg_duration_types.hpp"
+i"boost/date_time/gregorian/greg_date.hpp"
+i"boost/date_time/date_generators.hpp"
+i"boost/date_time/date_clock_device.hpp"
+i"boost/date_time/date_iterator.hpp"
+i"boost/date_time/adjust_functors.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian_calendar.hpp
+c000000004B4A27C300000000000009DB
+t1263151043
+s2523
+i"boost/date_time/gregorian_calendar.ipp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/gregorian_calendar.ipp
+c000000004B4A27C30000000000001EEE
+t1263151043
+s7918
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/int_adapter.hpp
+c00000000491B309100000000000035F5
+t1226518673
+s13813
+i"boost/config.hpp"
+i"boost/limits.hpp"
+i"boost/date_time/special_defs.hpp"
+i"boost/date_time/locale_config.hpp"
+i<ostream>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/locale_config.hpp
+c0000000047C5C1580000000000000451
+t1204142424
+s1105
+i"boost/config.hpp"
+i"boost/detail/workaround.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/microsec_time_clock.hpp
+c000000004BE7CEC400000000000013F5
+t1273482948
+s5109
+i<boost/cstdint.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/detail/workaround.hpp>
+i<boost/date_time/compiler_config.hpp>
+i<boost/date_time/c_time.hpp>
+i<boost/date_time/time_clock.hpp>
+i<boost/date_time/filetime_functions.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/period.hpp
+c0000000047C5C1580000000000002B28
+t1204142424
+s11048
+i"boost/operators.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/conversion.hpp
+c000000004C0FD9050000000000000C4F
+t1276107013
+s3151
+i<cstring>
+i<boost/date_time/posix_time/ptime.hpp>
+i<boost/date_time/posix_time/posix_time_duration.hpp>
+i<boost/date_time/filetime_functions.hpp>
+i<boost/date_time/c_time.hpp>
+i<boost/date_time/time_resolution_traits.hpp>
+i<boost/date_time/gregorian/conversion.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/date_duration_operators.hpp
+c0000000047C5C1580000000000000F11
+t1204142424
+s3857
+i"boost/date_time/gregorian/greg_duration_types.hpp"
+i"boost/date_time/posix_time/ptime.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/posix_time_config.hpp
+c000000004A27B57C000000000000173F
+t1244116348
+s5951
+i<cstdlib>
+i<boost/limits.hpp>
+i<boost/cstdint.hpp>
+i<boost/config/no_tr1/cmath.hpp>
+i<boost/date_time/time_duration.hpp>
+i<boost/date_time/time_resolution_traits.hpp>
+i<boost/date_time/gregorian/gregorian_types.hpp>
+i<boost/date_time/wrapping_int.hpp>
+i<boost/date_time/compiler_config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/posix_time_duration.hpp
+c0000000047C5C15800000000000007B8
+t1204142424
+s1976
+i"boost/date_time/posix_time/posix_time_config.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/posix_time_system.hpp
+c0000000047C5C15800000000000004B1
+t1204142424
+s1201
+i"boost/date_time/posix_time/posix_time_config.hpp"
+i"boost/date_time/time_system_split.hpp"
+i"boost/date_time/time_system_counted.hpp"
+i"boost/date_time/compiler_config.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/posix_time_types.hpp
+c0000000047C5C1580000000000000706
+t1204142424
+s1798
+i"boost/date_time/time_clock.hpp"
+i"boost/date_time/microsec_time_clock.hpp"
+i"boost/date_time/posix_time/ptime.hpp"
+i"boost/date_time/posix_time/date_duration_operators.hpp"
+i"boost/date_time/posix_time/posix_time_duration.hpp"
+i"boost/date_time/posix_time/posix_time_system.hpp"
+i"boost/date_time/posix_time/time_period.hpp"
+i"boost/date_time/time_iterator.hpp"
+i"boost/date_time/dst_rules.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/ptime.hpp
+c0000000047C5C1580000000000000852
+t1204142424
+s2130
+i"boost/date_time/posix_time/posix_time_system.hpp"
+i"boost/date_time/time.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/posix_time/time_period.hpp
+c0000000047C5C15800000000000002E1
+t1204142424
+s737
+i"boost/date_time/period.hpp"
+i"boost/date_time/posix_time/posix_time_duration.hpp"
+i"boost/date_time/posix_time/ptime.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/special_defs.hpp
+c0000000047C5C15800000000000002A8
+t1204142424
+s680
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time.hpp
+c00000000491B3091000000000000180B
+t1226518673
+s6155
+i<string>
+i<boost/operators.hpp>
+i<boost/date_time/time_defs.hpp>
+i<boost/date_time/special_defs.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_clock.hpp
+c0000000047C5C15800000000000008F4
+t1204142424
+s2292
+i"boost/date_time/c_time.hpp"
+i"boost/shared_ptr.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_defs.hpp
+c00000000491B309100000000000003DD
+t1226518673
+s989
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_duration.hpp
+c000000004A2784D100000000000020EC
+t1244103889
+s8428
+i<boost/cstdint.hpp>
+i<boost/operators.hpp>
+i<boost/date_time/time_defs.hpp>
+i<boost/date_time/special_defs.hpp>
+i<boost/date_time/compiler_config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_iterator.hpp
+c0000000047C5C15800000000000005E3
+t1204142424
+s1507
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_resolution_traits.hpp
+c000000004A2A524300000000000013EB
+t1244287555
+s5099
+i<boost/cstdint.hpp>
+i<boost/date_time/time_defs.hpp>
+i<boost/date_time/int_adapter.hpp>
+i<boost/date_time/compiler_config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_system_counted.hpp
+c0000000047C5C15800000000000020F4
+t1204142424
+s8436
+i"boost/date_time/time_defs.hpp"
+i<string>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/time_system_split.hpp
+c00000000491C89AF0000000000001DEF
+t1226607023
+s7663
+i<string>
+i"boost/date_time/compiler_config.hpp"
+i"boost/date_time/special_defs.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/wrapping_int.hpp
+c00000000491B309100000000000015E9
+t1226518673
+s5609
+
+N/Applications/cinder_0.8.2_mac/boost/boost/date_time/year_month_day.hpp
+c0000000047C5C158000000000000051F
+t1204142424
+s1311
 
 N/Applications/cinder_0.8.2_mac/boost/boost/detail/call_traits.hpp
 c0000000048F39F9F0000000000000FD2
@@ -470,6 +928,17 @@ i<boost/config.hpp>
 i<boost/type_traits/arithmetic_traits.hpp>
 i<boost/type_traits/composite_traits.hpp>
 
+N/Applications/cinder_0.8.2_mac/boost/boost/detail/reference_content.hpp
+c000000004104510C0000000000000BCE
+t1090801932
+s3022
+i"boost/config.hpp"
+i"boost/mpl/bool.hpp"
+i"boost/type_traits/has_nothrow_copy.hpp"
+i"boost/mpl/if.hpp"
+i"boost/type_traits/is_reference.hpp"
+i"boost/mpl/void.hpp"
+
 N/Applications/cinder_0.8.2_mac/boost/boost/detail/sp_typeinfo.hpp
 c000000004C38DC3D0000000000000875
 t1278794813
@@ -484,6 +953,12 @@ c000000004BF2C6260000000000001C75
 t1274201638
 s7285
 i<boost/config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/enable_shared_from_this.hpp
+c0000000049AC07B80000000000000212
+t1236010936
+s530
+i<boost/smart_ptr/enable_shared_from_this.hpp>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/exception/detail/attribute_noreturn.hpp
 c000000004B295EB1000000000000020A
@@ -827,6 +1302,12 @@ i<boost/config.hpp>
 i<boost/limits.hpp>
 i<limits.h>
 i<wchar.h>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/intrusive_ptr.hpp
+c0000000049AC07B800000000000001F3
+t1236010936
+s499
+i<boost/smart_ptr/intrusive_ptr.hpp>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/iostreams/categories.hpp
 c000000004C24589A0000000000001297
@@ -3025,6 +3506,17 @@ c000000004126321200000000000003F6
 t1093022226
 s1014
 
+N/Applications/cinder_0.8.2_mac/boost/boost/none.hpp
+c000000004749B9D700000000000002F8
+t1196014039
+s760
+i"boost/none_t.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/none_t.hpp
+c000000004749B9D7000000000000025D
+t1196014039
+s605
+
 N/Applications/cinder_0.8.2_mac/boost/boost/operators.hpp
 c000000004A16699B0000000000009718
 t1242982811
@@ -3032,6 +3524,38 @@ s38680
 i<boost/config.hpp>
 i<boost/iterator.hpp>
 i<boost/detail/workaround.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/optional.hpp
+c000000004749B9D70000000000000210
+t1196014039
+s528
+i"boost/optional/optional.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/optional/optional.hpp
+c000000004C3F7B5200000000000071AE
+t1279228754
+s29102
+i<new>
+i<algorithm>
+i"boost/config.hpp"
+i"boost/assert.hpp"
+i"boost/type.hpp"
+i"boost/type_traits/alignment_of.hpp"
+i"boost/type_traits/type_with_alignment.hpp"
+i"boost/type_traits/remove_reference.hpp"
+i"boost/type_traits/is_reference.hpp"
+i"boost/mpl/if.hpp"
+i"boost/mpl/bool.hpp"
+i"boost/mpl/not.hpp"
+i"boost/detail/reference_content.hpp"
+i"boost/none.hpp"
+i"boost/utility/compare_pointees.hpp"
+i"boost/optional/optional_fwd.hpp"
+
+N/Applications/cinder_0.8.2_mac/boost/boost/optional/optional_fwd.hpp
+c000000004C3F7B52000000000000024F
+t1279228754
+s591
 
 N/Applications/cinder_0.8.2_mac/boost/boost/preprocessor/arithmetic/add.hpp
 c000000004145C2010000000000000742
@@ -4999,6 +5523,28 @@ i<windows.h>
 i<sched.h>
 i<time.h>
 
+N/Applications/cinder_0.8.2_mac/boost/boost/smart_ptr/enable_shared_from_this.hpp
+c0000000049B05AE900000000000006D7
+t1236294377
+s1751
+i<boost/smart_ptr/weak_ptr.hpp>
+i<boost/smart_ptr/shared_ptr.hpp>
+i<boost/assert.hpp>
+i<boost/config.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/smart_ptr/intrusive_ptr.hpp
+c000000004B2679730000000000001964
+t1260812659
+s6500
+i<boost/config.hpp>
+i<boost/assert.hpp>
+i<boost/detail/workaround.hpp>
+i<boost/smart_ptr/detail/sp_convertible.hpp>
+i<boost/config/no_tr1/functional.hpp>
+i<iosfwd>
+i<ostream>
+i<boost/smart_ptr/detail/operator_bool.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/smart_ptr/shared_ptr.hpp
 c000000004B2679730000000000004496
 t1260812659
@@ -5021,12 +5567,319 @@ i<iosfwd>
 i<ostream>
 i<boost/smart_ptr/detail/operator_bool.hpp>
 
+N/Applications/cinder_0.8.2_mac/boost/boost/smart_ptr/weak_ptr.hpp
+c000000004B2679730000000000001443
+t1260812659
+s5187
+i<memory>
+i<boost/smart_ptr/detail/shared_count.hpp>
+i<boost/smart_ptr/shared_ptr.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/static_assert.hpp
 c0000000048773ABB00000000000013C5
 t1215773371
 s5061
 i<boost/config.hpp>
 i<boost/detail/workaround.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/condition_variable.hpp
+c000000004749B9D7000000000000027A
+t1196014039
+s634
+i<boost/thread/detail/platform.hpp>
+i<boost/thread/win32/condition_variable.hpp>
+i<boost/thread/pthread/condition_variable.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/config.hpp
+c000000004C3774C50000000000000C6D
+t1278702789
+s3181
+i<boost/config.hpp>
+i<boost/detail/workaround.hpp>
+i"platform.hpp"
+i<boost/config/auto_link.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/move.hpp
+c000000004ADC2ED5000000000000050F
+t1255943893
+s1295
+i<boost/utility/enable_if.hpp>
+i<boost/type_traits/is_convertible.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/platform.hpp
+c000000004C3774C50000000000000A73
+t1278702789
+s2675
+i<boost/config.hpp>
+i<boost/config/requires_threads.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/thread.hpp
+c000000004C3774C50000000000003724
+t1278702789
+s14116
+i<boost/thread/exceptions.hpp>
+i<ostream>
+i<boost/thread/detail/move.hpp>
+i<boost/thread/mutex.hpp>
+i<boost/thread/xtime.hpp>
+i<boost/thread/detail/thread_heap_alloc.hpp>
+i<boost/utility.hpp>
+i<boost/assert.hpp>
+i<list>
+i<algorithm>
+i<boost/ref.hpp>
+i<boost/cstdint.hpp>
+i<boost/bind.hpp>
+i<stdlib.h>
+i<memory>
+i<boost/utility/enable_if.hpp>
+i<boost/type_traits/remove_reference.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/thread_group.hpp
+c000000004C3774C50000000000000ABB
+t1278702789
+s2747
+i<list>
+i<boost/thread/shared_mutex.hpp>
+i<boost/thread/mutex.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/thread_heap_alloc.hpp
+c00000000485907140000000000000277
+t1213794068
+s631
+i<boost/thread/detail/platform.hpp>
+i<boost/thread/win32/thread_heap_alloc.hpp>
+i<boost/thread/pthread/thread_heap_alloc.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/detail/thread_interruption.hpp
+c000000004AEAB6D50000000000000450
+t1256896213
+s1104
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/exceptions.hpp
+c000000004ADC2ED50000000000000E40
+t1255943893
+s3648
+i<boost/thread/detail/config.hpp>
+i<string>
+i<stdexcept>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/locks.hpp
+c000000004C3774C5000000000000B19E
+t1278702789
+s45470
+i<boost/thread/detail/config.hpp>
+i<boost/thread/exceptions.hpp>
+i<boost/thread/detail/move.hpp>
+i<algorithm>
+i<iterator>
+i<boost/thread/thread_time.hpp>
+i<boost/detail/workaround.hpp>
+i<boost/type_traits/is_class.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/mutex.hpp
+c000000004749B9D70000000000000239
+t1196014039
+s569
+i<boost/thread/detail/platform.hpp>
+i<boost/thread/win32/mutex.hpp>
+i<boost/thread/pthread/mutex.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/pthread/condition_variable.hpp
+c000000004C3774C500000000000015E8
+t1278702789
+s5608
+i"timespec.hpp"
+i"pthread_mutex_scoped_lock.hpp"
+i"thread_data.hpp"
+i"condition_variable_fwd.hpp"
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/pthread/mutex.hpp
+c000000004C3774C50000000000001692
+t1278702789
+s5778
+i<pthread.h>
+i<boost/utility.hpp>
+i<boost/throw_exception.hpp>
+i<boost/thread/exceptions.hpp>
+i<boost/thread/locks.hpp>
+i<boost/thread/thread_time.hpp>
+i<boost/thread/xtime.hpp>
+i<boost/assert.hpp>
+i<errno.h>
+i"timespec.hpp"
+i"pthread_mutex_scoped_lock.hpp"
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/pthread/shared_mutex.hpp
+c000000004C3774C50000000000002183
+t1278702789
+s8579
+i<boost/assert.hpp>
+i<boost/static_assert.hpp>
+i<boost/thread/mutex.hpp>
+i<boost/thread/condition_variable.hpp>
+i<boost/thread/detail/thread_interruption.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/pthread/thread_data.hpp
+c000000004ADC2ED50000000000000FB6
+t1255943893
+s4022
+i<boost/thread/detail/config.hpp>
+i<boost/thread/exceptions.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/enable_shared_from_this.hpp>
+i<boost/thread/mutex.hpp>
+i<boost/optional.hpp>
+i<pthread.h>
+i"condition_variable_fwd.hpp"
+i<map>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/pthread/thread_heap_alloc.hpp
+c000000004BB4B5EF0000000000002346
+t1270134255
+s9030
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/shared_mutex.hpp
+c000000004749B9D7000000000000025C
+t1196014039
+s604
+i<boost/thread/detail/platform.hpp>
+i<boost/thread/win32/shared_mutex.hpp>
+i<boost/thread/pthread/shared_mutex.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/thread.hpp
+c000000004AEAB6D500000000000002DE
+t1256896213
+s734
+i<boost/thread/detail/platform.hpp>
+i<boost/thread/win32/thread_data.hpp>
+i<boost/thread/pthread/thread_data.hpp>
+i<boost/thread/detail/thread.hpp>
+i<boost/thread/detail/thread_interruption.hpp>
+i<boost/thread/detail/thread_group.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/thread_time.hpp
+c00000000485907140000000000000511
+t1213794068
+s1297
+i<boost/date_time/microsec_time_clock.hpp>
+i<boost/date_time/posix_time/posix_time_types.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/win32/condition_variable.hpp
+c0000000048590714000000000000338E
+t1213794068
+s13198
+i<boost/thread/mutex.hpp>
+i"thread_primitives.hpp"
+i<limits.h>
+i<boost/assert.hpp>
+i<algorithm>
+i<boost/thread/thread.hpp>
+i<boost/thread/thread_time.hpp>
+i"interlocked_read.hpp"
+i<boost/thread/xtime.hpp>
+i<vector>
+i<boost/intrusive_ptr.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/win32/mutex.hpp
+c000000004C3774C50000000000000629
+t1278702789
+s1577
+i"basic_timed_mutex.hpp"
+i<boost/utility.hpp>
+i<boost/thread/exceptions.hpp>
+i<boost/thread/locks.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/win32/shared_mutex.hpp
+c000000004C3774C50000000000004F53
+t1278702789
+s20307
+i<boost/assert.hpp>
+i<boost/detail/interlocked.hpp>
+i<boost/thread/win32/thread_primitives.hpp>
+i<boost/static_assert.hpp>
+i<limits.h>
+i<boost/utility.hpp>
+i<boost/thread/thread_time.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/win32/thread_data.hpp
+c000000004C3774C50000000000001670
+t1278702789
+s5744
+i<boost/thread/detail/config.hpp>
+i<boost/intrusive_ptr.hpp>
+i<boost/thread/thread_time.hpp>
+i"thread_primitives.hpp"
+i"thread_heap_alloc.hpp"
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/win32/thread_heap_alloc.hpp
+c000000004BB4B5EF0000000000003385
+t1270134255
+s13189
+i<new>
+i"thread_primitives.hpp"
+i<stdexcept>
+i<boost/assert.hpp>
+i<boost/throw_exception.hpp>
+i<windows.h>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/win32/thread_primitives.hpp
+c000000004C3AC89B0000000000003250
+t1278920859
+s12880
+i<boost/config.hpp>
+i<boost/throw_exception.hpp>
+i<boost/assert.hpp>
+i<boost/thread/exceptions.hpp>
+i<boost/detail/interlocked.hpp>
+i<algorithm>
+i<windows.h>
+i<kfuncs.h>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/thread/xtime.hpp
+c000000004859071400000000000008F8
+t1213794068
+s2296
+i<boost/thread/detail/config.hpp>
+i<boost/cstdint.hpp>
+i<boost/thread/thread_time.hpp>
+i<boost/date_time/posix_time/conversion.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/throw_exception.hpp
 c000000004C2FAC520000000000000A55
@@ -5306,6 +6159,14 @@ c000000003FCDE65300000000000002D6
 t1070458451
 s726
 
+N/Applications/cinder_0.8.2_mac/boost/boost/type_traits/has_nothrow_copy.hpp
+c000000004749B9D700000000000004BB
+t1196014039
+s1211
+i<boost/type_traits/has_trivial_copy.hpp>
+i<boost/type_traits/detail/bool_trait_def.hpp>
+i<boost/type_traits/detail/bool_trait_undef.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/type_traits/has_trivial_copy.hpp
 c000000004749B9D70000000000000660
 t1196014039
@@ -5414,6 +6275,18 @@ i<boost/type_traits/detail/ice_and.hpp>
 i<boost/config.hpp>
 i<boost/static_assert.hpp>
 i<boost/type_traits/remove_cv.hpp>
+i<boost/type_traits/detail/bool_trait_def.hpp>
+i<boost/type_traits/detail/bool_trait_undef.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/type_traits/is_base_of.hpp
+c000000004ACF61C20000000000000762
+t1255104962
+s1890
+i<boost/type_traits/is_base_and_derived.hpp>
+i<boost/type_traits/is_same.hpp>
+i<boost/type_traits/is_class.hpp>
+i<boost/type_traits/detail/ice_or.hpp>
+i<boost/type_traits/detail/ice_and.hpp>
 i<boost/type_traits/detail/bool_trait_def.hpp>
 i<boost/type_traits/detail/bool_trait_undef.hpp>
 
@@ -5897,6 +6770,12 @@ i<boost/preprocessor/seq/size.hpp>
 i<boost/preprocessor/facilities/empty.hpp>
 i<boost/preprocessor/control/while.hpp>
 
+N/Applications/cinder_0.8.2_mac/boost/boost/utility/compare_pointees.hpp
+c000000004C3F7B520000000000000874
+t1279228754
+s2164
+i<functional>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/utility/enable_if.hpp
 c0000000048D1C2CB0000000000000C1E
 t1221706443
@@ -5920,6 +6799,11 @@ i<boost/mpl/or.hpp>
 i<boost/type_traits/is_pointer.hpp>
 i<boost/type_traits/is_member_function_pointer.hpp>
 i<boost/type_traits/remove_cv.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/version.hpp
+c000000004C62E8D20000000000000464
+t1281550546
+s1124
 
 N/Applications/cinder_0.8.2_mac/boost/boost/visit_each.hpp
 c0000000041031B0900000000000002CF
@@ -6158,6 +7042,15 @@ i"cinder/ChanTraits.h"
 i"cinder/Color.h"
 i<boost/logic/tribool.hpp>
 
+N/Applications/cinder_0.8.2_mac/include/cinder/Thread.h
+c000000004CB66FB900000000000006B2
+t1287024569
+s1714
+i"cinder/Cinder.h"
+i<boost/thread/mutex.hpp>
+i<boost/thread/thread.hpp>
+i<boost/thread/condition_variable.hpp>
+
 N/Applications/cinder_0.8.2_mac/include/cinder/Timer.h
 c000000004CB66FB900000000000008E9
 t1287024569
@@ -6387,6 +7280,11 @@ c000000004AC59C810000000000000DCB
 t1254464641
 s3531
 
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h
 c000000004AC59C8100000000000027D1
 t1254464641
@@ -6407,10 +7305,20 @@ c000000004AC59C810000000000000560
 t1254464641
 s1376
 
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
 c000000004AC59C820000000000001731
 t1254464642
 s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004C4DE4B40000000000001E17
+t1280173236
+s7703
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
 c000000004AC59C82000000000000178E
@@ -6483,9 +7391,9 @@ t1287024574
 s114357
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp
-c000000004CDAFA04000000000000033B
-t1289419268
-s827
+c000000004CDBF4D00000000000000405
+t1289483472
+s1029
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 i"cinder/gl/Texture.h"
@@ -6513,38 +7421,46 @@ t1289418765
 s427
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp
-c000000004CDB009C0000000000000269
-t1289420956
-s617
+c000000004CDBF6030000000000000307
+t1289483779
+s775
 i"Particle.h"
 i"cinder/Rand.h"
-i"cinder/gl/gl.h"
+i"cinder/ImageIO.h"
+i"cinder/gl/Texture.h"
 i"cinder/app/AppBasic.h"
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.h
-c000000004CDAFE3B00000000000001A6
-t1289420347
-s422
+c000000004CDBF5F700000000000001F2
+t1289483767
+s498
 i"cinder/Channel.h"
 i"cinder/Vector.h"
+i"cinder/gl/gl.h"
+i"cinder/gl/Texture.h"
 i<vector>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp
-c000000004CDB01140000000000000491
-t1289421076
-s1169
+c000000004CDBF68500000000000005BF
+t1289483909
+s1471
 i"cinder/app/AppBasic.h"
 i"cinder/Rand.h"
 i"cinder/Vector.h"
+i"cinder/ImageIO.h"
+i"cinder/Thread.h"
 i"ParticleController.h"
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.h
-c000000004CDAF9D80000000000000196
-t1289419224
-s406
+c000000004CDBF66800000000000001DF
+t1289483880
+s479
+i"Particle.h"
+i"cinder/gl/Texture.h"
+i<list>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-t1289430987
+t1289483918
 s102
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist
@@ -6552,8 +7468,8 @@ t1289417819
 s865
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
-t1289430987
-s5194048
+t1289483918
+s5211064
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/PkgInfo
 t1289417819
@@ -6569,20 +7485,20 @@ t1289418960
 s528
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
-t1289419276
-s425144
+t1289483887
+s425172
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParicleController.o
 t2
 s0
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o
-t1289420997
-s433812
+t1289483813
+s447324
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
-t1289430985
-s462692
+t1289483917
+s595368
 
 N/var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch.gch
 t1289417819
@@ -6595,11 +7511,11 @@ s860
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311123778#311123779#0(0"0(0#1#0"8616587744#0"0#
+lSLF07#2@18"Check dependencies311176713#311176713#0(0"0(0#1#0"8620393088#0"0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311112068.554975
-e311112076.399321
+s311176682.220446
+e311176687.478224
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
@@ -6608,7 +7524,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311112068#311112076#0(0"0(0#0#106"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8619555808#2261"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
+lSLF07#2@114"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311176682#311176687#0(0"0(0#0#106"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8619790496#2261"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParicleController.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311111705.543164
@@ -6653,8 +7569,8 @@ o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Paricl
 lSLF07#2@102"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111705#311111709#0(4211"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:12:32: error: ParticleController.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:17: error: 'ParticleController' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:17: error: ISO C++ forbids declaration of 'ParticleController' with no type/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:21: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void update()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: 'Particle' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: wrong number of template arguments (1, should be 2)../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp:81: error: provided for 'template<class T, class Allocator> struct std::list'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: expected initializer before 'p'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: 'mParticles' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:28: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void draw()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: 'Particle' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: wrong number of template arguments (1, should be 2)../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp:81: error: provided for 'template<class T, class Allocator> struct std::list'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: expected initializer before 'p'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: 'mParticles' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:35: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void addParticles(int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:41: error: 'mParticles' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:41: error: 'Particle' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:45: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void removeParticles(int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:49: error: 'mParticles' was not declared in this scope25(4@47"ParticleController.h: No such file or directory311111707#0#157#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#12#0#12#0#28"*: No such file or directory0(4@42"'ParticleController' has not been declared311111708#157#149#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#17#0#17#0#25"'*' has not been declared0(4@64"ISO C++ forbids declaration of 'ParticleController' with no type311111708#306#171#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#17#0#17#0#47"ISO C++ forbids declaration of '*' with no type0(4@48"'ParticleController' is not a class or namespace311111708#477#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#21#0#21#0#0"0(4@41"'Particle' was not declared in this scope311111708#757#148#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#34"'*' was not declared in this scope0(4@51"Wrong number of template arguments (1, should be 2)311111708#905#158#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#0"0(4@66"Provided for 'template<class T, class Allocator> struct std::list'311111708#1063#169#0(6@90"../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp287857881#81#0#81#0#0"0(4@31"Expected initializer before 'p'311111708#1232#138#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#19"expected * before *0(4@34"'p' was not declared in this scope311111708#1370#141#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#34"'*' was not declared in this scope0(4@43"'mParticles' was not declared in this scope311111708#1511#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#34"'*' was not declared in this scope0(23@16"At global scope:311111708#1661#113#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#0#0#0#0#0"0(4@48"'ParticleController' is not a class or namespace311111708#1774#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#28#0#28#0#0"0(4@41"'Particle' was not declared in this scope311111708#2052#148#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#34"'*' was not declared in this scope0(4@51"Wrong number of template arguments (1, should be 2)311111708#2200#158#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#0"0(4@66"Provided for 'template<class T, class Allocator> struct std::list'311111708#2358#169#0(6@90"../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp287857881#81#0#81#0#0"0(4@31"Expected initializer before 'p'311111708#2527#138#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#19"expected * before *0(4@34"'p' was not declared in this scope311111708#2665#141#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#34"'*' was not declared in this scope0(4@43"'mParticles' was not declared in this scope311111708#2806#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#34"'*' was not declared in this scope0(23@16"At global scope:311111708#2956#113#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#0#0#0#0#0"0(4@48"'ParticleController' is not a class or namespace311111708#3069#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#35#0#35#0#0"0(4@43"'mParticles' was not declared in this scope311111708#3358#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#41#0#41#0#34"'*' was not declared in this scope0(4@41"'Particle' was not declared in this scope311111708#3508#148#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#41#0#41#0#34"'*' was not declared in this scope0(23@16"At global scope:311111708#3656#113#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#0#0#0#0#0"0(4@48"'ParticleController' is not a class or namespace311111708#3769#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#45#0#45#0#0"0(4@43"'mParticles' was not declared in this scope311111708#4061#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#49#0#49#0#34"'*' was not declared in this scope0(0#0#94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp8625479104#2244"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParicleController.o1#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311113793.839640
-e311113797.966013
+s311176607.706386
+e311176613.499440
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o
@@ -6663,11 +7579,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp311113793#311113797#0(0"0(0#0#85"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp8630578592#2226"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
+lSLF07#2@93"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp311176607#311176613#0(0"0(0#0#85"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp8610118720#2226"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311123779.060571
-e311123786.018711
+s311176713.757317
+e311176717.845077
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
@@ -6676,7 +7592,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp311123779#311123786#0(0"0(0#0#95"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp8620704416#2246"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
+lSLF07#2@103"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp311176713#311176717#0(0"0(0#0#95"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp8619576288#2246"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
 
 CCpResource build/Debug/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
 s311110619.750832
@@ -6688,14 +7604,14 @@ x../resources/CinderApp.icns
 lSLF07#2@32"Copy ../resources/CinderApp.icns311110619#311110619#0(0"0(0#0#100"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../resources/CinderApp.icns8616092448#457"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../resources/CinderApp.icns /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Resources0#
 
 CLd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice normal i386
-s311123786.018872
-e311123787.955778
+s311176717.845229
+e311176718.824206
 r1
 xLd
 x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
 xnormal
 xi386
-lSLF07#2@148"Link /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice311123786#311123787#0(0"0(0#0#0"8603217664#1023"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -filelist /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList -mmacosx-version-min=10.5 ../../../../../../../../Applications/cinder_0.8.2_mac/lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice0#
+lSLF07#2@148"Link /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice311176717#311176718#0(0"0(0#0#0"8602631424#1023"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -filelist /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList -mmacosx-version-min=10.5 ../../../../../../../../Applications/cinder_0.8.2_mac/lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice0#
 
 CProcessInfoPlistFile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
 s311110619.747243
@@ -6720,10 +7636,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@41"Precompile FlimshawPartyDevice_Prefix.pch311110619#311110619#0(0"0(0#0#103"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch8615872288#2078"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch -o /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch.gch0#
 
 CTouch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-s311123787.956007
-e311123787.981795
+s311176718.824308
+e311176718.826897
 r1
 xTouch
 x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-lSLF07#2@114"Touch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app311123787#311123787#0(0"0(0#0#0"8631386624#211"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /usr/bin/touch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app0#
+lSLF07#2@114"Touch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app311176718#311176718#0(0"0(0#0#0"8607023136#211"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /usr/bin/touch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app0#
 
