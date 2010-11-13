@@ -11,8 +11,10 @@
 #include "cinder/ImageIO.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/app/AppBasic.h"
+#include "ThreadedImage.h"
 
 using namespace ci;
+using namespace ci::app;
 
 Particle::Particle()
 {
@@ -21,25 +23,53 @@ Particle::Particle()
 Particle::Particle( Vec2f loc )
 {
 	mLoc	= loc;
-	mDir	= Rand::randVec2f();
+	mDir	= Vec2f(0.0, 1.0);
 	mVel	= Rand::randFloat( 5.0f );
-	mRadius	= Rand::randFloat( 50.0f ) + 5;
-	
+	mRadius	= 500.0f;
+	mColor = Color(Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ));
+	mNewScale = mRadius;
 	mIsDead	= false;
 	
+	mTexture = gl::Texture( loadImage( "/flickr/paul-and-charlie.jpg" ) );
+
+	
+	//mImage.loadUrl(Url("http://farm2.static.flickr.com/1146/5155365620_3194692a49.jpg"));
+}
+
+Particle::Particle( Vec2f loc, string texturePath )
+{
+	mLoc	= loc;
+	mDir	= Vec2f(0.0, 1.0);
+	mVel	= Rand::randFloat( 5.0f );
+	mRadius	= 500.f;
+	mColor = Color(Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ));
+	mNewScale = mRadius;
+	mIsDead = false;
+	
+	mTexture = gl::Texture( loadImage( texturePath ) );
+}
+
+void Particle::setScale(float newScale) {
+	mNewScale = newScale;
+}
+
+void Particle::setGravityDir(Vec2f newGravityDir) {
+	mDir = newGravityDir;
 }
 
 void Particle::update()
 {
 	mLoc += mDir * mVel;
-	if(mLoc.x < 0 || mLoc.y < 0 || mLoc.x >= 640 || mLoc.y >= 480) {
+	if(mLoc.x < 0 || mLoc.x >= 1024 || mLoc.y >= 768) {
 		mIsDead = true;
 	}
+	
 }
 
 void Particle::draw()
 {
-	Rectf rect( mLoc.x, mLoc.y, mLoc.x + mRadius, mLoc.y + mRadius );
-	gl::drawSolidRect( rect );
-
+	Rectf rect( mLoc.x, mLoc.y, mLoc.x + mNewScale, mLoc.y + mNewScale );
+	//gl::color(mColor);
+	//gl::drawSolidRect( rect );
+	gl::draw(mTexture, rect);
 }

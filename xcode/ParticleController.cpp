@@ -10,27 +10,71 @@
 #include "cinder/Rand.h"
 #include "cinder/Vector.h"
 #include "cinder/ImageIO.h"
-#include "cinder/Thread.h"
 #include "ParticleController.h"
+#include "cinder/audio/Input.h"
+#include "boost/filesystem.hpp"
+#include "boost/filesystem/operations.hpp"
+#include "boost/filesystem/fstream.hpp"
+#include <iostream>
 
 using namespace ci;
+using namespace ci::app;
+using namespace boost::filesystem;
+using namespace std;
 using std::list;
 
 ParticleController::ParticleController()
 {
+	if(exists("/flickr")) {
+		directory_iterator end ;
+		for( directory_iterator iter("/flickr") ; iter != end ; ++iter )
+			if ( is_directory( *iter ) )
+			{
+				cout << iter->leaf() << " (directory)\n" ;
+			}
+			else
+				cout << iter->leaf() << " (file)\n" ;
+	}
+	particleMax = 1;
+	mGravityDir = Vec2f(0.0, 1.0);
+	mInput = audio::Input();
+	mInput.start();
 }
 
-void loadSurfaceUrl( Surface *destSurface, const Url &url )
-{
-	*destSurface = Surface( loadImage( loadUrl( url ) ) );
+void ParticleController::setParticleMax(int newMax) {
+	if(newMax > 0 && newMax < 500) {
+		particleMax = newMax;
+	}
+}
+
+void ParticleController::setGravityDir(Vec2f newGravityDir) {
+	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
+		mGravityDir = newGravityDir;
+		p->setGravityDir(newGravityDir);
+		++p;
+	}
 }
 
 void ParticleController::update()
 {	
+	mPcmBuffer = mInput.getPcmBuffer();
+	if( ! mPcmBuffer ) {
+		return;
+	}
 	
 	// if we're running low on particles, add some more
-	if(mParticles.size() < 5) {
-		addParticles(5 - mParticles.size());
+	if(mParticles.size() < particleMax) {
+		addParticles(particleMax - mParticles.size());
+	}
+	
+	// if we have too many particles, remove some
+	if(mParticles.size() > particleMax) {
+		removeParticles(mParticles.size() - particleMax);
+	}
+	
+	mPcmBuffer = mInput.getPcmBuffer();
+	if( ! mPcmBuffer ) {
+		return;
 	}
 	
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
@@ -46,8 +90,23 @@ void ParticleController::update()
 }
 
 void ParticleController::draw()
-{
+{	
+	if( ! mPcmBuffer ) {
+		return;
+	}
+	uint32_t bufferSamples = mPcmBuffer->getSampleCount();
+	audio::Buffer32fRef leftBuffer = mPcmBuffer->getChannelData( audio::CHANNEL_FRONT_LEFT );
+	float bufferScratch = 0.0;
+	float audioLevel = 0.0;
+	
+	for(uint32_t i = 0; i < bufferSamples; i++) {
+		bufferScratch = abs(leftBuffer->mData[i]) + bufferScratch;
+	}
+	
+	audioLevel = (bufferScratch / bufferSamples) * 1000 + 50;
+	
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ++p ){
+		//p->setScale(audioLevel);
 		p->draw();
 	}
 }
@@ -57,8 +116,10 @@ void ParticleController::addParticles( int amt )
 	for( int i=0; i<amt; i++ )
 	{
 		float x = Rand::randFloat( app::getWindowWidth() );
-		float y = Rand::randFloat( app::getWindowHeight() );
-		mParticles.push_back( Particle( Vec2f( x, y ) ) );
+		float y = -100.0;
+		Particle newParticle = Particle( Vec2f( x, y ) );
+		//newParticle->setGravityDir(mGravityDir);
+		mParticles.push_back( newParticle );
 	}
 }
 
