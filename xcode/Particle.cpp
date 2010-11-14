@@ -20,30 +20,14 @@ Particle::Particle()
 {
 }
 
-Particle::Particle( Vec2f loc )
-{
-	mLoc	= loc;
-	mDir	= Vec2f(0.0, 1.0);
-	mVel	= Rand::randFloat( 5.0f );
-	mRadius	= 500.0f;
-	mColor = Color(Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ));
-	mNewScale = mRadius;
-	mIsDead	= false;
-	
-	mTexture = gl::Texture( loadImage( "/flickr/paul-and-charlie.jpg" ) );
-
-	
-	//mImage.loadUrl(Url("http://farm2.static.flickr.com/1146/5155365620_3194692a49.jpg"));
-}
-
 Particle::Particle( Vec2f loc, string texturePath )
 {
 	mLoc	= loc;
 	mDir	= Vec2f(0.0, 1.0);
-	mVel	= Rand::randFloat( 5.0f );
-	mRadius	= 500.f;
+	mVel	= Rand::randFloat( 5.0f ) + 1.0f;
+	mVelScale = 1.0;
+	mScale	= 1.0f;
 	mColor = Color(Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ));
-	mNewScale = mRadius;
 	mIsDead = false;
 	
 	try {
@@ -55,25 +39,45 @@ Particle::Particle( Vec2f loc, string texturePath )
 }
 
 void Particle::setScale(float newScale) {
-	mNewScale = newScale;
+	mScale = newScale;
 }
 
 void Particle::setGravityDir(Vec2f newGravityDir) {
 	mDir = newGravityDir;
 }
 
+void Particle::setAudioLevel(float audioLevel) {
+	mAudioLevel = audioLevel;
+}
+
+void Particle::setVelScale(float velScale) {
+	mVelScale = velScale;
+}
+
+void Particle::reactToAudio() {
+	--mScale;
+	mScale = mScale + (mAudioLevel * .002);
+	if(mScale < 1.0) {
+		mScale = 1.0;
+	} else if(mScale > 1.5) {
+		mScale = 1.5;
+	}
+}
+
 void Particle::update()
 {
-	mLoc += mDir * mVel;
-	if(mLoc.x < 0 || mLoc.x >= 1024 || mLoc.y >= 768) {
+	mLoc += mDir * (mVel * mVelScale);
+	reactToAudio();
+	if(mLoc.x < -mTexture.getWidth() || mLoc.x >= app::getWindowWidth() || mLoc.y >= (app::getWindowHeight() + mTexture.getHeight())) {
 		mIsDead = true;
 	}
-	
 }
 
 void Particle::draw()
 {
-	Rectf rect( mLoc.x, mLoc.y, mLoc.x + mTexture.getWidth(), mLoc.y + mTexture.getHeight() );
+	float centerX = mLoc.x - ((mScale * mTexture.getWidth()) / 2);
+	float centerY = mLoc.y - ((mScale * mTexture.getHeight()) / 2);
+	Rectf rect( centerX, centerY, centerX + (mScale * mTexture.getWidth()), centerY + (mScale * mTexture.getHeight()) );
 	//gl::color(mColor);
 	//gl::drawSolidRect( rect );
 	gl::draw(mTexture, rect);

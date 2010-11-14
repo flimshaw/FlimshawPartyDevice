@@ -1,6 +1,18 @@
 TFlimshawPartyDevice
 v7
-r1
+r0
+t311435510.366502
+cCheck dependencies
+cProcessInfoPlistFile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
+cCpResource build/Release/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
+cProcessPCH++ /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch.gch FlimshawPartyDevice_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 
 N/Applications/cinder_0.8.2_mac/boost/boost/aligned_storage.hpp
 c000000004A68476000000000000010C9
@@ -151,6 +163,12 @@ s773
 i<boost/config.hpp>
 i<boost/detail/ob_call_traits.hpp>
 i<boost/detail/call_traits.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/cerrno.hpp
+c00000000473C744A000000000000104D
+t1195144266
+s4173
+i<cerrno>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/checked_delete.hpp
 c00000000411BA5230000000000000635
@@ -893,6 +911,20 @@ i<boost/mpl/has_xxx.hpp>
 i<cstddef>
 i"boost/type_traits/detail/bool_trait_def.hpp"
 
+N/Applications/cinder_0.8.2_mac/boost/boost/detail/lcast_precision.hpp
+c000000004B7825590000000000001786
+t1266165081
+s6022
+i<climits>
+i<ios>
+i<limits>
+i<boost/config.hpp>
+i<boost/integer_traits.hpp>
+i<boost/mpl/if.hpp>
+i<boost/type_traits/is_abstract.hpp>
+i<boost/assert.hpp>
+i<boost/static_assert.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/detail/limits.hpp
 c0000000045714FB500000000000040C6
 t1165053877
@@ -929,6 +961,12 @@ i"boost/mpl/if.hpp"
 i"boost/type_traits/is_reference.hpp"
 i"boost/mpl/void.hpp"
 
+N/Applications/cinder_0.8.2_mac/boost/boost/detail/scoped_enum_emulation.hpp
+c000000004B78255900000000000007A5
+t1266165081
+s1957
+i<boost/config.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/detail/sp_typeinfo.hpp
 c000000004C38DC3D0000000000000875
 t1278794813
@@ -959,6 +997,200 @@ N/Applications/cinder_0.8.2_mac/boost/boost/exception/exception.hpp
 c000000004C2FAC520000000000002A3F
 t1278192722
 s10815
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem.hpp
+c000000004C61AFC900000000000004AE
+t1281470409
+s1198
+i<boost/filesystem/v2/config.hpp>
+i<boost/filesystem/v2/path.hpp>
+i<boost/filesystem/v2/operations.hpp>
+i<boost/filesystem/v2/convenience.hpp>
+i<boost/filesystem/v3/config.hpp>
+i<boost/filesystem/v3/path.hpp>
+i<boost/filesystem/v3/operations.hpp>
+i<boost/filesystem/v3/convenience.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/fstream.hpp
+c000000004C3310E20000000000000394
+t1278415074
+s916
+i<boost/filesystem/v2/fstream.hpp>
+i<boost/filesystem/v3/fstream.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/operations.hpp
+c000000004C3310E200000000000003A3
+t1278415074
+s931
+i<boost/filesystem/v2/operations.hpp>
+i<boost/filesystem/v3/operations.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v2/config.hpp
+c000000004C3310E20000000000000D0B
+t1278415074
+s3339
+i<boost/config.hpp>
+i<boost/system/api_config.hpp>
+i<boost/detail/workaround.hpp>
+i<boost/config/auto_link.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v2/convenience.hpp
+c000000004C61AFC90000000000002921
+t1281470409
+s10529
+i<boost/filesystem/operations.hpp>
+i<boost/system/error_code.hpp>
+i<vector>
+i<stack>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v2/fstream.hpp
+c000000004C61AFC90000000000005B09
+t1281470409
+s23305
+i<boost/filesystem/v2/operations.hpp>
+i<boost/utility/enable_if.hpp>
+i<boost/detail/workaround.hpp>
+i<iosfwd>
+i<fstream>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v2/operations.hpp
+c000000004C3310E2000000000000AA0E
+t1278415074
+s43534
+i<boost/filesystem/v2/path.hpp>
+i<boost/detail/scoped_enum_emulation.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/utility/enable_if.hpp>
+i<boost/type_traits/is_same.hpp>
+i<boost/iterator.hpp>
+i<boost/cstdint.hpp>
+i<boost/assert.hpp>
+i<string>
+i<utility>
+i<ctime>
+i<fstream>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v2/path.hpp
+c000000004C61AFC9000000000000DA62
+t1281470409
+s55906
+i<boost/filesystem/v2/config.hpp>
+i<boost/system/system_error.hpp>
+i<boost/iterator/iterator_facade.hpp>
+i<boost/throw_exception.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/type_traits/is_same.hpp>
+i<boost/static_assert.hpp>
+i<string>
+i<algorithm>
+i<iosfwd>
+i<stdexcept>
+i<cassert>
+i<locale>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v3/config.hpp
+c000000004C3310E20000000000000B70
+t1278415074
+s2928
+i<boost/config.hpp>
+i<boost/system/api_config.hpp>
+i<boost/detail/workaround.hpp>
+i<boost/config/auto_link.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v3/convenience.hpp
+c000000004C61AFC90000000000000780
+t1281470409
+s1920
+i<boost/config.hpp>
+i<boost/filesystem/v3/operations.hpp>
+i<boost/system/error_code.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v3/fstream.hpp
+c000000004C61AFC90000000000001D87
+t1281470409
+s7559
+i<boost/config.hpp>
+i<boost/filesystem/v3/path.hpp>
+i<iosfwd>
+i<fstream>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v3/operations.hpp
+c000000004C61AFC90000000000009023
+t1281470409
+s36899
+i<boost/config.hpp>
+i<boost/filesystem/v3/config.hpp>
+i<boost/filesystem/v3/path.hpp>
+i<boost/detail/scoped_enum_emulation.hpp>
+i<boost/system/error_code.hpp>
+i<boost/system/system_error.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/utility/enable_if.hpp>
+i<boost/type_traits/is_same.hpp>
+i<boost/iterator.hpp>
+i<boost/cstdint.hpp>
+i<boost/assert.hpp>
+i<string>
+i<utility>
+i<ctime>
+i<vector>
+i<stack>
+i<fstream>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v3/path.hpp
+c000000004C61AFC90000000000006D81
+t1281470409
+s28033
+i<boost/config.hpp>
+i<boost/filesystem/v3/config.hpp>
+i<boost/filesystem/v3/path_traits.hpp>
+i<boost/system/error_code.hpp>
+i<boost/system/system_error.hpp>
+i<boost/iterator/iterator_facade.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/io/detail/quoted_manip.hpp>
+i<boost/static_assert.hpp>
+i<string>
+i<iterator>
+i<cstring>
+i<iosfwd>
+i<stdexcept>
+i<cassert>
+i<locale>
+i<algorithm>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/filesystem/v3/path_traits.hpp
+c000000004C61AFC90000000000001A2D
+t1281470409
+s6701
+i<boost/config.hpp>
+i<boost/filesystem/v3/config.hpp>
+i<boost/utility/enable_if.hpp>
+i<boost/type_traits/is_array.hpp>
+i<boost/system/error_code.hpp>
+i<string>
+i<vector>
+i<iterator>
+i<locale>
+i<boost/assert.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/function.hpp
 c000000004749B9D70000000000000864
@@ -1298,6 +1530,34 @@ c0000000049AC07B800000000000001F3
 t1236010936
 s499
 i<boost/smart_ptr/intrusive_ptr.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/io/detail/quoted_manip.hpp
+c000000004C330AD1000000000000194C
+t1278413521
+s6476
+i<iosfwd>
+i<ios>
+i<string>
+i<iterator>
+i<boost/io/ios_state.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/io/ios_state.hpp
+c000000004B444FFB0000000000002E15
+t1262768123
+s11797
+i<boost/io_fwd.hpp>
+i<boost/detail/workaround.hpp>
+i<ios>
+i<locale>
+i<ostream>
+i<streambuf>
+i<string>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/io_fwd.hpp
+c00000000411F375D000000000000094D
+t1092564829
+s2381
+i<iosfwd>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/iostreams/categories.hpp
 c000000004C24589A0000000000001297
@@ -2340,6 +2600,30 @@ s1927
 i<boost/iterator.hpp>
 i<boost/utility.hpp>
 i<boost/iterator/iterator_adaptor.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/lexical_cast.hpp
+c000000004AAC1FA300000000000095EA
+t1252794275
+s38378
+i<climits>
+i<cstddef>
+i<istream>
+i<string>
+i<typeinfo>
+i<exception>
+i<boost/config.hpp>
+i<boost/limits.hpp>
+i<boost/mpl/if.hpp>
+i<boost/throw_exception.hpp>
+i<boost/type_traits/is_pointer.hpp>
+i<boost/type_traits/make_unsigned.hpp>
+i<boost/call_traits.hpp>
+i<boost/static_assert.hpp>
+i<boost/detail/lcast_precision.hpp>
+i<boost/detail/workaround.hpp>
+i<locale>
+i<strstream>
+i<sstream>
 
 N/Applications/cinder_0.8.2_mac/boost/boost/limits.hpp
 c0000000049C6759A00000000000017E7
@@ -5572,6 +5856,47 @@ s5061
 i<boost/config.hpp>
 i<boost/detail/workaround.hpp>
 
+N/Applications/cinder_0.8.2_mac/boost/boost/system/api_config.hpp
+c000000004C3309C20000000000000728
+t1278413250
+s1832
+
+N/Applications/cinder_0.8.2_mac/boost/boost/system/config.hpp
+c000000004C3309C20000000000000695
+t1278413250
+s1685
+i<boost/config.hpp>
+i<boost/system/api_config.hpp>
+i<boost/config/auto_link.hpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/system/error_code.hpp
+c000000004C3309C20000000000004460
+t1278413250
+s17504
+i<boost/system/config.hpp>
+i<boost/cstdint.hpp>
+i<boost/assert.hpp>
+i<boost/operators.hpp>
+i<boost/noncopyable.hpp>
+i<boost/utility/enable_if.hpp>
+i<ostream>
+i<string>
+i<stdexcept>
+i<functional>
+i<boost/cerrno.hpp>
+i<boost/config/abi_prefix.hpp>
+i<boost/config/abi_suffix.hpp>
+i<boost/../libs/system/src/error_code.cpp>
+
+N/Applications/cinder_0.8.2_mac/boost/boost/system/system_error.hpp
+c000000004C3309C200000000000009B6
+t1278413250
+s2486
+i<string>
+i<stdexcept>
+i<cassert>
+i<boost/system/error_code.hpp>
+
 N/Applications/cinder_0.8.2_mac/boost/boost/thread/condition_variable.hpp
 c000000004749B9D7000000000000027A
 t1196014039
@@ -7085,6 +7410,15 @@ i"cinder/Cinder.h"
 i"cinder/Stream.h"
 i<iostream>
 
+N/Applications/cinder_0.8.2_mac/include/cinder/Utilities.h
+c000000004CB66FB9000000000000128E
+t1287024569
+s4750
+i<string>
+i<vector>
+i"cinder/Cinder.h"
+i<boost/lexical_cast.hpp>
+
 N/Applications/cinder_0.8.2_mac/include/cinder/Vector.h
 c000000004CB66FB90000000000005590
 t1287024569
@@ -7479,15 +7813,17 @@ t1287024574
 s114357
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp
-c000000004CDC43D400000000000006C2
-t1289503700
-s1730
+c000000004CDF16F80000000000000E2F
+t1289688824
+s3631
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 i"cinder/gl/Texture.h"
 i"cinder/ImageIo.h"
 i"cinder/Xml.h"
 i"ParticleController.h"
+i<string>
+i"OscListener.h"
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch
 c000000004CDAF33D0000000000000093
@@ -7496,9 +7832,9 @@ s147
 i<Cocoa/Cocoa.h>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp
-c000000004CDC4A2B0000000000000439
-t1289505323
-s1081
+c000000004CDFE7CA00000000000006EE
+t1289742282
+s1774
 i"Particle.h"
 i"cinder/Rand.h"
 i"cinder/ImageIO.h"
@@ -7507,9 +7843,9 @@ i"cinder/app/AppBasic.h"
 i"ThreadedImage.h"
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.h
-c000000004CDC49CC000000000000026D
-t1289505228
-s621
+c000000004CDF06940000000000000309
+t1289684628
+s777
 i"cinder/Channel.h"
 i"cinder/Vector.h"
 i"cinder/gl/gl.h"
@@ -7517,23 +7853,27 @@ i"cinder/gl/Texture.h"
 i"cinder/Url.h"
 i"ThreadedImage.h"
 i<vector>
+i<string>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp
-c000000004CDC4C9E000000000000085A
-t1289505950
-s2138
+c000000004CDFE5F60000000000000EF0
+t1289741814
+s3824
 i"cinder/app/AppBasic.h"
 i"cinder/Rand.h"
 i"cinder/Vector.h"
 i"cinder/ImageIO.h"
 i"ParticleController.h"
 i"cinder/audio/Input.h"
+i"boost/filesystem.hpp"
+i"boost/filesystem/operations.hpp"
+i"boost/filesystem/fstream.hpp"
 i<iostream>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.h
-c000000004CDC45E1000000000000033F
-t1289504225
-s831
+c000000004CDF0F79000000000000042D
+t1289686905
+s1069
 i"Particle.h"
 i"cinder/app/AppCocoaTouch.h"
 i"cinder/app/AppBasic.h"
@@ -7541,6 +7881,7 @@ i"cinder/audio/FftProcessor.h"
 i"cinder/audio/Input.h"
 i"cinder/gl/Texture.h"
 i<list>
+i<string>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ThreadedImage.cpp
 c000000004CDC15910000000000001C37
@@ -7561,78 +7902,377 @@ i"cinder/Url.h"
 i<deque>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList
-c00000000000000000000000000000000
+c000000004CDFE96800000000000004C5
+t1289742696
+s1221
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
+t1289742704
+s17460
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o
+t1289742705
+s10136
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o
 t2
 s0
 
-N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o
+t1289742708
+s18284
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o
 t2
 s0
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o
-t2
-s0
+t1289742704
+s16308
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
-t2
-s0
+t1289742710
+s69616
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ThreadedImage.o
 t2
 s0
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app
-t2
-s0
+t1289742696
+s102
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Info.plist
-t2
-s0
+t1289742696
+s865
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
 t2
 s0
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/PkgInfo
-t2
-s0
+t1289742696
+s8
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns
-t2
-s0
+t1289742696
+s114357
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscArg.h
+c000000004BF476700000000000000C1D
+t1274312304
+s3101
+i<string>
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscBundle.h
+c000000004BF4767000000000000008C8
+t1274312304
+s2248
+i<vector>
+i"OscMessage.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h
+c000000004BF476700000000000000734
+t1274312304
+s1844
+i"cinder/Cinder.h"
+i"OscMessage.h"
+i"OscArg.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscMessage.h
+c000000004BF476700000000000000B90
+t1274312304
+s2960
+i"cinder/Cinder.h"
+i"cinder/Exception.h"
+i"OscArg.h"
+i<string>
+i<vector>
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h
+c000000004BF476700000000000000752
+t1274312304
+s1874
+i<string>
+i"OscBundle.h"
+i"OscMessage.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib
+c000000004BF4767000000000000EB32C
+t1274312304
+s963372
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib
+c000000004BF476700000000000188C26
+t1274312304
+s1608742
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/osx/osc.a
+c000000004BF47670000000000004BDD8
+t1274312304
+s310744
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp
+c000000004BF4767000000000000007ED
+t1274312304
+s2029
+i"OscBundle.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp
+c000000004BF4767000000000000012FA
+t1274312304
+s4858
+i"cinder/Thread.h"
+i"cinder/Utilities.h"
+i"OscListener.h"
+i"osc/OscTypes.h"
+i"osc/OscPacketListener.h"
+i"osc/OscReceivedElements.h"
+i"ip/UdpSocket.h"
+i<boost/bind.hpp>
+i<iostream>
+i<assert.h>
+i<deque>
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp
+c000000004BF4767000000000000010B9
+t1274312304
+s4281
+i"OscMessage.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp
+c000000004BF476700000000000001060
+t1274312304
+s4192
+i"OscSender.h"
+i"osc/OscOutboundPacketStream.h"
+i"osc/OscTypes.h"
+i"ip/UdpSocket.h"
+i<assert.h>
 
 N/var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch.gch
-t2
-s0
+t1289742696
+s2453872
 
 NInfo.plist
 c000000004CDAF33D000000000000035C
 t1289417533
 s860
 
-CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+CCheck dependencies
 r0
+lSLF07#2@18"Check dependencies311435495#311435496#0(0"0(0#1#0"8630941536#0"0#
+
+CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s311435496.645311
+e311435504.331340
+r1
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311435496#311435504#0(0"0(0#0#106"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8631675328#2279"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
+
+CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s311435504.917478
+e311435505.947837
+r1
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp311435504#311435505#0(0"0(0#0#90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp8631351264#2250"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o0#
+
+CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s311435505.948040
+e311435507.431956
+r0
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:30:26: error: osc/OscTypes.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:31:35: error: osc/OscPacketListener.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:32:37: error: osc/OscReceivedElements.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:33:26: error: ip/UdpSocket.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:44: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:44: error: expected `{' before 'OscPacketListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:44: error: function definition does not declare parameters
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:78: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:82: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:95: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:110: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:114: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:121: error: expected unqualified-id before '::' token
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:121: error: expected ',' or '...' before '::' token
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:121: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:150: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:160: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In constructor 'cinder::osc::Listener::Listener()':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:183: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In member function 'void cinder::osc::Listener::setup(int)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:187: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In member function 'bool cinder::osc::Listener::hasWaitingMessages()':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:191: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In member function 'bool cinder::osc::Listener::getNextMessage(cinder::osc::Message*)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:195: error: invalid use of incomplete type 'class cinder::osc::OscListener'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'
+lSLF07#2@100"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp311435505#311435507#0(5955"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:30:26: error: osc/OscTypes.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:31:35: error: osc/OscPacketListener.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:32:37: error: osc/OscReceivedElements.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:33:26: error: ip/UdpSocket.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:44: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:44: error: expected `{' before 'OscPacketListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:44: error: function definition does not declare parameters/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:78: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:82: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:95: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:110: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:114: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:121: error: expected unqualified-id before '::' token/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:121: error: expected ',' or '...' before '::' token/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:121: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:150: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:160: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In constructor 'cinder::osc::Listener::Listener()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:183: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In member function 'void cinder::osc::Listener::setup(int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:187: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In member function 'bool cinder::osc::Listener::hasWaitingMessages()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:191: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp: In member function 'bool cinder::osc::Listener::getNextMessage(cinder::osc::Message*)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp:195: error: invalid use of incomplete type 'class cinder::osc::OscListener'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h:49: error: forward declaration of 'class cinder::osc::OscListener'33(4@41"Osc/OscTypes.h: No such file or directory311435506#0#149#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#30#0#30#0#28"*: No such file or directory0(4@50"Osc/OscPacketListener.h: No such file or directory311435506#149#158#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#31#0#31#0#28"*: No such file or directory0(4@52"Osc/OscReceivedElements.h: No such file or directory311435506#307#160#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#32#0#32#0#28"*: No such file or directory0(4@41"Ip/UdpSocket.h: No such file or directory311435506#467#149#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#33#0#33#0#28"*: No such file or directory0(4@29"'::osc' has not been declared311435507#616#134#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#44#0#44#0#25"'*' has not been declared0(4@39"Expected `{' before 'OscPacketListener'311435507#750#144#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#44#0#44#0#19"expected * before *0(4@47"Function definition does not declare parameters311435507#894#152#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#44#0#44#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#1046#168#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#78#0#78#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#1214#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#1376#168#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#82#0#82#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#1544#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#1706#168#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#95#0#95#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#1874#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#2036#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#110#0#110#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#2205#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#2367#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#114#0#114#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#2536#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@41"Expected unqualified-id before '::' token311435507#2698#147#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#121#0#121#0#19"expected * before *0(4@39"Expected ',' or '...' before '::' token311435507#2845#145#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#121#0#121#0#19"expected * before *0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#2990#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#121#0#121#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#3159#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#3321#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#150#0#150#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#3490#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#3652#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#160#0#160#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#3821#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#4129#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#183#0#183#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#4298#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#4615#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#187#0#187#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#4784#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#5111#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#191#0#191#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#5280#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(4@63"Invalid use of incomplete type 'class cinder::osc::OscListener'311435507#5624#169#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp296005104#195#0#195#0#0"0(4@55"Forward declaration of 'class cinder::osc::OscListener'311435507#5793#162#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscListener.h296005104#49#0#49#0#0"0(0#0#92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp8631759456#2254"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o1#
+
+CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s311435507.434428
+e311435508.066224
+r1
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp311435507#311435508#0(0"0(0#0#91"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp8620964192#2252"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o0#
+
+CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s311435508.066412
+e311435508.379886
+r0
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:30:41: error: osc/OscOutboundPacketStream.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:31:26: error: osc/OscTypes.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:32:26: error: ip/UdpSocket.h: No such file or directory
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:50: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:50: error: expected ',' or '...' before '&' token
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:51: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:51: error: expected ',' or '...' before '&' token
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::setup(std::string, int)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:71: error: 'IpEndpointName' was not declared in this scope
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:71: error: invalid use of incomplete type 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: error: forward declaration of 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::shutdown()':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:76: warning: possible problem detected in invocation of delete operator:
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:76: warning: invalid use of incomplete type 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: warning: forward declaration of 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:76: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined.
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::sendBundle(cinder::osc::Bundle&)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:84: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:84: error: expected `;' before 'p'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:86: error: 'p' was not declared in this scope
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:88: error: invalid use of incomplete type 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: error: forward declaration of 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:82: warning: unused variable 'buffer'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::sendMessage(cinder::osc::Message&)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:94: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:94: error: expected `;' before 'p'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:96: error: 'p' was not declared in this scope
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:96: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:98: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:100: error: invalid use of incomplete type 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: error: forward declaration of 'struct UdpTransmitSocket'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:93: warning: unused variable 'buffer'
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: At global scope:
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:103: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:103: error: expected ',' or '...' before '&' token
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::appendBundle(cinder::osc::Bundle&, int)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:104: error: 'p' was not declared in this scope
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:104: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:112: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: At global scope:
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:115: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:115: error: expected ',' or '...' before '&' token
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::appendMessage(cinder::osc::Message&, int)':
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:116: error: 'p' was not declared in this scope
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:116: error: '::osc' has not been declared
+o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:128: error: '::osc' has not been declared
+lSLF07#2@98"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp311435508#311435508#0(6740"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:30:41: error: osc/OscOutboundPacketStream.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:31:26: error: osc/OscTypes.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:32:26: error: ip/UdpSocket.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:50: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:50: error: expected ',' or '...' before '&' token/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:51: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:51: error: expected ',' or '...' before '&' token/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::setup(std::string, int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:71: error: 'IpEndpointName' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:71: error: invalid use of incomplete type 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: error: forward declaration of 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::shutdown()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:76: warning: possible problem detected in invocation of delete operator:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:76: warning: invalid use of incomplete type 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: warning: forward declaration of 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:76: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined./Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::sendBundle(cinder::osc::Bundle&)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:84: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:84: error: expected `;' before 'p'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:86: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:88: error: invalid use of incomplete type 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: error: forward declaration of 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:82: warning: unused variable 'buffer'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::sendMessage(cinder::osc::Message&)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:94: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:94: error: expected `;' before 'p'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:96: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:96: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:98: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:100: error: invalid use of incomplete type 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h:29: error: forward declaration of 'struct UdpTransmitSocket'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:93: warning: unused variable 'buffer'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:103: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:103: error: expected ',' or '...' before '&' token/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::appendBundle(cinder::osc::Bundle&, int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:104: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:104: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:112: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:115: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:115: error: expected ',' or '...' before '&' token/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp: In member function 'void cinder::osc::OscSender::appendMessage(cinder::osc::Message&, int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:116: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:116: error: '::osc' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp:128: error: '::osc' has not been declared40(4@56"Osc/OscOutboundPacketStream.h: No such file or directory311435508#0#162#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#30#0#30#0#28"*: No such file or directory0(4@41"Osc/OscTypes.h: No such file or directory311435508#162#147#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#31#0#31#0#28"*: No such file or directory0(4@41"Ip/UdpSocket.h: No such file or directory311435508#309#147#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#32#0#32#0#28"*: No such file or directory0(4@29"'::osc' has not been declared311435508#456#132#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#50#0#50#0#25"'*' has not been declared0(4@38"Expected ',' or '...' before '&' token311435508#588#141#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#50#0#50#0#19"expected * before *0(4@29"'::osc' has not been declared311435508#729#132#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#51#0#51#0#25"'*' has not been declared0(4@38"Expected ',' or '...' before '&' token311435508#861#141#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#51#0#51#0#19"expected * before *0(4@47"'IpEndpointName' was not declared in this scope311435508#1169#150#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#71#0#71#0#34"'*' was not declared in this scope0(4@57"Invalid use of incomplete type 'struct UdpTransmitSocket'311435508#1319#160#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#71#0#71#0#0"0(4@49"Forward declaration of 'struct UdpTransmitSocket'311435508#1479#154#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h296005104#29#0#29#0#0"0(22@59"Possible problem detected in invocation of delete operator:311435508#1787#164#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#76#0#76#0#0"0(22@57"Invalid use of incomplete type 'struct UdpTransmitSocket'311435508#1951#162#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#76#0#76#0#0"0(22@49"Forward declaration of 'struct UdpTransmitSocket'311435508#2113#156#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h296005104#29#0#29#0#0"0(13@130"Neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined.311435508#2269#232#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#76#0#76#0#0"0(4@29"'::osc' has not been declared311435508#2677#132#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#84#0#84#0#25"'*' has not been declared0(4@23"Expected `;' before 'p'311435508#2809#126#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#84#0#84#0#19"expected * before *0(4@34"'p' was not declared in this scope311435508#2935#137#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#86#0#86#0#34"'*' was not declared in this scope0(4@57"Invalid use of incomplete type 'struct UdpTransmitSocket'311435508#3072#160#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#88#0#88#0#0"0(4@49"Forward declaration of 'struct UdpTransmitSocket'311435508#3232#154#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h296005104#29#0#29#0#0"0(22@24"Unused variable 'buffer'311435508#3386#129#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#82#0#82#0#19"unused variable '*'0(4@29"'::osc' has not been declared311435508#3693#132#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#94#0#94#0#25"'*' has not been declared0(4@23"Expected `;' before 'p'311435508#3825#126#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#94#0#94#0#19"expected * before *0(4@34"'p' was not declared in this scope311435508#3951#137#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#96#0#96#0#34"'*' was not declared in this scope0(4@29"'::osc' has not been declared311435508#4088#132#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#96#0#96#0#25"'*' has not been declared0(4@29"'::osc' has not been declared311435508#4220#132#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#98#0#98#0#25"'*' has not been declared0(4@57"Invalid use of incomplete type 'struct UdpTransmitSocket'311435508#4352#161#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#100#0#100#0#0"0(4@49"Forward declaration of 'struct UdpTransmitSocket'311435508#4513#154#0(6@92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/include/OscSender.h296005104#29#0#29#0#0"0(22@24"Unused variable 'buffer'311435508#4667#129#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#93#0#93#0#19"unused variable '*'0(23@16"At global scope:311435508#4796#109#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#0#0#0#0#0"0(4@29"'::osc' has not been declared311435508#4905#133#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#103#0#103#0#25"'*' has not been declared0(4@38"Expected ',' or '...' before '&' token311435508#5038#142#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#103#0#103#0#19"expected * before *0(4@34"'p' was not declared in this scope311435508#5363#138#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#104#0#104#0#34"'*' was not declared in this scope0(4@29"'::osc' has not been declared311435508#5501#133#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#104#0#104#0#25"'*' has not been declared0(4@29"'::osc' has not been declared311435508#5634#133#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#112#0#112#0#25"'*' has not been declared0(23@16"At global scope:311435508#5767#109#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#0#0#0#0#0"0(4@29"'::osc' has not been declared311435508#5876#133#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#115#0#115#0#25"'*' has not been declared0(4@38"Expected ',' or '...' before '&' token311435508#6009#142#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#115#0#115#0#19"expected * before *0(4@34"'p' was not declared in this scope311435508#6336#138#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#116#0#116#0#34"'*' was not declared in this scope0(4@29"'::osc' has not been declared311435508#6474#133#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#116#0#116#0#25"'*' has not been declared0(4@29"'::osc' has not been declared311435508#6607#133#0(6@90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp296005104#128#0#128#0#25"'*' has not been declared0(0#0#90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp8607272800#2250"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o1#
 
 CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-r0
+s311435496.648926
+e311435504.917381
+r1
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp311435496#311435504#0(0"0(0#0#85"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp8627887808#2244"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-r0
+s311435504.331482
+e311435510.366334
+r1
+xCompileC
+xbuild/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp311435504#311435510#0(0"0(0#0#95"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp8633303232#2264"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/Objects-normal/i386/ThreadedImage.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ThreadedImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCpResource build/Release/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
-r0
+s311435496.462921
+e311435496.494241
+r1
+xCpResource
+xbuild/Release/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns
+x../resources/CinderApp.icns
+lSLF07#2@32"Copy ../resources/CinderApp.icns311435496#311435496#0(0"0(0#0#100"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../resources/CinderApp.icns8631079328#480"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../resources/CinderApp.icns /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Resources0#
 
 CLd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice normal i386
 r0
 
 CProcessInfoPlistFile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
-r0
+s311435496.450805
+e311435496.462835
+r1
+xProcessInfoPlistFile
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist311435496#311435496#0(0"0(0#0#83"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Info.plist8623698272#432"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app/Contents/Info.plist0#
 
 CProcessPCH++ /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch.gch FlimshawPartyDevice_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
-r0
+s311435496.494390
+e311435496.645218
+r1
+xProcessPCH++
+x/var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch.gch
+xFlimshawPartyDevice_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile FlimshawPartyDevice_Prefix.pch311435496#311435496#0(0"0(0#0#103"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch8633378592#2094"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -ffast-math -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Release/FlimshawPartyDevice.build/DerivedSources -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch -o /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-fhqxrdhmiyufdyderwhwkzxgjswk/FlimshawPartyDevice_Prefix.pch.gch0#
 
 CTouch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Release/FlimshawPartyDevice.app
 r0

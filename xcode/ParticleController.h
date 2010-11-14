@@ -47,5 +47,6 @@ public:
 	Vec2f mGravityDir;
 	
 	audio::Input mInput;
+	boost::shared_ptr<float> mFftDataRef;
 	audio::PcmBuffer32fRef mPcmBuffer;
 };

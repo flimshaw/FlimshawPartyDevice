@@ -69,6 +69,9 @@ void ParticleController::update()
 		return;
 	}
 	
+	uint16_t bandCount = 512;
+	mFftDataRef = audio::calculateFft( mPcmBuffer->getChannelData( audio::CHANNEL_FRONT_LEFT ), bandCount );
+	
 	// if we're running low on particles, add some more
 	if(mParticles.size() < particleMax) {
 		addParticles(particleMax - mParticles.size());
@@ -98,24 +101,27 @@ void ParticleController::update()
 
 void ParticleController::draw()
 {	
-	if( ! mPcmBuffer ) {
+	
+	uint16_t bandCount = 16;
+	
+	if( ! mFftDataRef ) {
 		return;
 	}
-	uint32_t bufferSamples = mPcmBuffer->getSampleCount();
-	audio::Buffer32fRef leftBuffer = mPcmBuffer->getChannelData( audio::CHANNEL_FRONT_LEFT );
-	float bufferScratch = 0.0;
-	float audioLevel = 0.0;
 	
-	for(uint32_t i = 0; i < bufferSamples; i++) {
-		bufferScratch = abs(leftBuffer->mData[i]) + bufferScratch;
+	float * fftBuffer = mFftDataRef.get();
+	float audioLevel = 0.0f;
+	for( int i = 0; i < ( bandCount ); i++ ) {
+		audioLevel = audioLevel + fftBuffer[i];
 	}
-	
-	audioLevel = (bufferScratch / bufferSamples) * 1000 + 50;
+	audioLevel = audioLevel / bandCount;
+	//audioLevel = (bufferScratch / bufferSamples) * 1000 + 50;
 	
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ++p ){
-		//p->setScale(audioLevel);
+		p->setAudioLevel(audioLevel);
 		p->draw();
 	}
+	
+
 }
 
 void ParticleController::addParticles( int amt )
@@ -124,7 +130,7 @@ void ParticleController::addParticles( int amt )
 		for( int i=0; i<amt; i++ )
 		{
 			float x = Rand::randFloat( app::getWindowWidth() );
-			float y = -100.0;
+			float y = -500.0;
 			
 			int randomIndex = Rand::randInt(mImageFiles.size()) - 1;
 			if(randomIndex < 0)
@@ -142,11 +148,7 @@ void ParticleController::addParticles( int amt )
 				console() << nextImage;
 				Particle newParticle = Particle( Vec2f( x, y ), "/flickr/" + nextImage );
 				mParticles.push_back( newParticle );
-			} else {
-				Particle newParticle = Particle( Vec2f( x, y ) );
-				mParticles.push_back( newParticle );
 			}
-			//newParticle->setGravityDir(mGravityDir);
 			
 		}
 	}

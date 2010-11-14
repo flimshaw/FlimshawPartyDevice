@@ -12,6 +12,7 @@ using namespace std;
 using std::list;
 
 #include "OscListener.h"
+#include "OscSender.h"
 
 class FlimshawPartyDeviceApp : public AppBasic {
   public:
@@ -27,7 +28,10 @@ class FlimshawPartyDeviceApp : public AppBasic {
 	float particleSize;
 	string textureDirectory;
 	
-	osc::Listener listener;
+	osc::Listener	listener;
+	osc::Sender		sender;
+	std::string host;
+	int port;
 };
 
 void FlimshawPartyDeviceApp::prepareSettings( Settings *settings )
@@ -41,6 +45,11 @@ void FlimshawPartyDeviceApp::setup()
 {
 	mGravityDir = Vec2f(0.0, 1.0);
 	listener.setup(3000);
+	
+	host = "10.0.1.76";
+	port = 3002;
+	sender.setup(host, port);
+	
 
 	
 	/*XmlDocument doc( loadUrlStream( "http://api.flickr.com/services/feeds/groups_pool.gne?id=1423039@N24&lang=en-us&format=rss_200" ) );	
@@ -67,14 +76,22 @@ void FlimshawPartyDeviceApp::update()
 	
 	while (listener.hasWaitingMessages()) {
 		osc::Message message;
-		listener.getNextMessage(&message);
+		osc::Message sendMessage;
 		
-		if(message.getAddress() == "/1/particle_count") {
+		listener.getNextMessage(&message);
+		string address = message.getAddress();
+		
+		if(address == "/1/particle_count") {
 			mParticleController.setParticleMax((int)(message.getArgAsFloat(0) * 100));
-		} else if(message.getAddress() == "/1/gravity_dir") {
+			
+			sendMessage.addIntArg((int)(message.getArgAsFloat(0) * 100));
+			sendMessage.setAddress("/1/label_particle_count");
+			sendMessage.setRemoteEndpoint(host, port);
+			sender.sendMessage(sendMessage);
+		} else if(address == "/1/gravity_dir") {
 			mGravityDir = Vec2f(message.getArgAsFloat(0) -1.0f, message.getArgAsFloat(1) -1.0f);
 			mParticleController.setGravityDir(mGravityDir);
-		} else if(message.getAddress() == "/1/multitoggle3/1/1") {
+		} else if(address == "/1/multitoggle3/1/1") {
 			setFullScreen(!isFullScreen());
 		}
 		
