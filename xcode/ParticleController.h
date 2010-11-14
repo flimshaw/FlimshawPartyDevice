@@ -36,10 +36,13 @@ public:
 
 	std::list<Particle>	mParticles;
 	std::list<Url> mTextures;
-	std::list<string> mImageFiles;
+	std::vector<string> mImageFiles;
 	
 	uint particleMax;
 	uint textureBufferMax;
+	
+	uint textureCounter;
+	list<int>::iterator textureIterator;
 	
 	Vec2f mGravityDir;
 	

@@ -4,6 +4,7 @@
 #include "cinder/ImageIo.h"
 #include "cinder/Xml.h"
 #include "ParticleController.h"
+#include <string>
 
 using namespace ci;
 using namespace ci::app;
@@ -24,7 +25,8 @@ class FlimshawPartyDeviceApp : public AppBasic {
 	vector<Url>				mUrls;
 	Vec2f mGravityDir;
 	float particleSize;
-
+	string textureDirectory;
+	
 	osc::Listener listener;
 };
 
@@ -39,6 +41,8 @@ void FlimshawPartyDeviceApp::setup()
 {
 	mGravityDir = Vec2f(0.0, 1.0);
 	listener.setup(3000);
+
+	
 	/*XmlDocument doc( loadUrlStream( "http://api.flickr.com/services/feeds/groups_pool.gne?id=1423039@N24&lang=en-us&format=rss_200" ) );	
 	vector<XmlElement> items( doc.xpath( "/rss/channel/item" ) );
 	for( vector<XmlElement>::iterator itemIter = items.begin(); itemIter != items.end(); ++itemIter ) {
@@ -70,6 +74,8 @@ void FlimshawPartyDeviceApp::update()
 		} else if(message.getAddress() == "/1/gravity_dir") {
 			mGravityDir = Vec2f(message.getArgAsFloat(0) -1.0f, message.getArgAsFloat(1) -1.0f);
 			mParticleController.setGravityDir(mGravityDir);
+		} else if(message.getAddress() == "/1/multitoggle3/1/1") {
+			setFullScreen(!isFullScreen());
 		}
 		
 		console() << "New message received" << std::endl;

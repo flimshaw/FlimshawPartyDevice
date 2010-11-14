@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>10</integer>
 									<integer>7</integer>
 									<integer>0</integer>
 								</array>
@@ -298,7 +298,7 @@
 							<real>229</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>25 216 1277 799 0 0 1680 1028 </string>
+						<string>268 64 1277 799 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FlimshawPartyDeviceApp.cpp</string>
+								<string>Particle.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,22 +324,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FlimshawPartyDeviceApp.cpp</string>
+										<string>Particle.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CB2CE4D0128F3EAF006C92F9</string>
+										<string>CB2CE63612901F57006C92F9</string>
 										<key>history</key>
 										<array>
 											<string>CB2CE2B7128F14B7006C92F9</string>
-											<string>CB2CE3F1128F2180006C92F9</string>
-											<string>CB2CE470128F29C2006C92F9</string>
-											<string>CB2CE4C5128F3E95006C92F9</string>
-											<string>CB2CE4C7128F3E95006C92F9</string>
-											<string>CB2CE4C8128F3E95006C92F9</string>
-											<string>CB2CE4C9128F3E95006C92F9</string>
-											<string>CB2CE4CE128F3EAF006C92F9</string>
-											<string>CB2CE4CF128F3EAF006C92F9</string>
+											<string>CB2CE53A128F44B5006C92F9</string>
+											<string>CB2CE53B128F44B5006C92F9</string>
+											<string>CB2CE53C128F44B5006C92F9</string>
+											<string>CB2CE54A128F471E006C92F9</string>
+											<string>CB2CE54B128F471E006C92F9</string>
+											<string>CB2CE60C12900FCE006C92F9</string>
+											<string>CB2CE61312901011006C92F9</string>
+											<string>CB2CE62A12901E89006C92F9</string>
+											<string>CB2CE62B12901E89006C92F9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -353,7 +354,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1026, 546}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 216 1277 799 0 0 1680 1028 </string>
+								<string>268 64 1277 799 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -373,7 +374,7 @@
 								<key>Frame</key>
 								<string>{{0, 551}, {1026, 207}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 216 1277 799 0 0 1680 1028 </string>
+								<string>268 64 1277 799 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -537,16 +538,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CB2CE4D1128F3EAF006C92F9</string>
+		<string>CB2CE63712901F57006C92F9</string>
 		<string>CB2CE2AF128F1435006C92F9</string>
 		<string>CB2CE2B0128F1435006C92F9</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>CB241F22128B2D23001A816F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>25 216 1277 799 0 0 1680 1028 </string>
+	<string>268 64 1277 799 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -567,7 +568,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Particle.h</string>
+								<string>ParticleController.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,7 +577,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1202, 414}}</string>
 								<key>RubberWindowFrame</key>
-								<string>447 83 1202 696 0 0 1680 1028 </string>
+								<string>437 84 1202 696 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -602,7 +603,7 @@
 								<key>Frame</key>
 								<string>{{0, 419}, {1202, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>447 83 1202 696 0 0 1680 1028 </string>
+								<string>437 84 1202 696 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -634,11 +635,11 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>447 83 1202 696 0 0 1680 1028 </string>
+			<string>437 84 1202 696 0 0 1680 1028 </string>
 			<key>WindowToolGUID</key>
 			<string>CB241F22128B2D23001A816F</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -894,7 +895,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {792, 618}}</string>
 								<key>RubberWindowFrame</key>
-								<string>104 104 792 659 0 0 1680 1028 </string>
+								<string>-928 131 792 659 -1440 0 1440 900 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -923,7 +924,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>104 104 792 659 0 0 1680 1028 </string>
+			<string>-928 131 792 659 -1440 0 1440 900 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

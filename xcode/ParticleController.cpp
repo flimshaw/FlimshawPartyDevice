@@ -30,15 +30,22 @@ ParticleController::ParticleController()
 		for( directory_iterator iter("/flickr") ; iter != end ; ++iter )
 			if ( is_directory( *iter ) )
 			{
-				cout << iter->leaf() << " (directory)\n" ;
+				//cout << iter->leaf() << " (directory)\n" ;
 			}
-			else
-				cout << iter->leaf() << " (file)\n" ;
+			else {
+				console() << iter->leaf();
+				mImageFiles.push_back(iter->leaf());
+				//cout << iter->leaf() << " (file)\n" ;
+			}
 	}
-	particleMax = 1;
+	
+//	textureIterator = mImageFiles.begin();
+	
+	particleMax = 20;
 	mGravityDir = Vec2f(0.0, 1.0);
 	mInput = audio::Input();
 	mInput.start();
+	textureCounter = 0;
 }
 
 void ParticleController::setParticleMax(int newMax) {
@@ -113,13 +120,35 @@ void ParticleController::draw()
 
 void ParticleController::addParticles( int amt )
 {
-	for( int i=0; i<amt; i++ )
-	{
-		float x = Rand::randFloat( app::getWindowWidth() );
-		float y = -100.0;
-		Particle newParticle = Particle( Vec2f( x, y ) );
-		//newParticle->setGravityDir(mGravityDir);
-		mParticles.push_back( newParticle );
+	if(mImageFiles.size()) {
+		for( int i=0; i<amt; i++ )
+		{
+			float x = Rand::randFloat( app::getWindowWidth() );
+			float y = -100.0;
+			
+			int randomIndex = Rand::randInt(mImageFiles.size()) - 1;
+			if(randomIndex < 0)
+				randomIndex = 0;
+			
+			string nextImage = mImageFiles[randomIndex];
+			console() << nextImage;
+			while(nextImage == ".DS_Store") {
+				int randomIndex = Rand::randInt(mImageFiles.size()) - 1;
+				if(randomIndex < 0)
+					randomIndex = 0;
+				nextImage = mImageFiles[randomIndex];
+			}
+			if(nextImage != "") {
+				console() << nextImage;
+				Particle newParticle = Particle( Vec2f( x, y ), "/flickr/" + nextImage );
+				mParticles.push_back( newParticle );
+			} else {
+				Particle newParticle = Particle( Vec2f( x, y ) );
+				mParticles.push_back( newParticle );
+			}
+			//newParticle->setGravityDir(mGravityDir);
+			
+		}
 	}
 }
 

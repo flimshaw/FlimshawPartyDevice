@@ -46,7 +46,12 @@ Particle::Particle( Vec2f loc, string texturePath )
 	mNewScale = mRadius;
 	mIsDead = false;
 	
-	mTexture = gl::Texture( loadImage( texturePath ) );
+	try {
+		mTexture = gl::Texture( loadImage( texturePath ) );
+	} catch (cinder::ImageIoExceptionFailedLoad) {
+		console() << "bad image!";
+		mTexture = gl::Texture( loadImage( "/flickr/default.jpg" ) );
+	}
 }
 
 void Particle::setScale(float newScale) {
@@ -68,7 +73,7 @@ void Particle::update()
 
 void Particle::draw()
 {
-	Rectf rect( mLoc.x, mLoc.y, mLoc.x + mNewScale, mLoc.y + mNewScale );
+	Rectf rect( mLoc.x, mLoc.y, mLoc.x + mTexture.getWidth(), mLoc.y + mTexture.getHeight() );
 	//gl::color(mColor);
 	//gl::drawSolidRect( rect );
 	gl::draw(mTexture, rect);
