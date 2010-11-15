@@ -33,7 +33,7 @@ ParticleController::ParticleController()
 				//cout << iter->leaf() << " (directory)\n" ;
 			}
 			else {
-				console() << iter->leaf();
+				//console() << iter->leaf();
 				mImageFiles.push_back(iter->leaf());
 				//cout << iter->leaf() << " (file)\n" ;
 			}
@@ -137,7 +137,6 @@ void ParticleController::addParticles( int amt )
 				randomIndex = 0;
 			
 			string nextImage = mImageFiles[randomIndex];
-			console() << nextImage;
 			while(nextImage == ".DS_Store") {
 				int randomIndex = Rand::randInt(mImageFiles.size()) - 1;
 				if(randomIndex < 0)
@@ -145,7 +144,6 @@ void ParticleController::addParticles( int amt )
 				nextImage = mImageFiles[randomIndex];
 			}
 			if(nextImage != "") {
-				console() << nextImage;
 				Particle newParticle = Particle( Vec2f( x, y ), "/flickr/" + nextImage );
 				mParticles.push_back( newParticle );
 			}

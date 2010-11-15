@@ -13,6 +13,7 @@ using std::list;
 
 #include "OscListener.h"
 #include "OscSender.h"
+#include "BpmClock.h"
 
 class FlimshawPartyDeviceApp : public AppBasic {
   public:
@@ -21,6 +22,8 @@ class FlimshawPartyDeviceApp : public AppBasic {
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
+	void handleOSC();
+	void handleBpmBang();
 	
 	ParticleController mParticleController;
 	vector<Url>				mUrls;
@@ -32,6 +35,8 @@ class FlimshawPartyDeviceApp : public AppBasic {
 	osc::Sender		sender;
 	std::string host;
 	int port;
+	
+	BpmClock mBpmClock;
 };
 
 void FlimshawPartyDeviceApp::prepareSettings( Settings *settings )
@@ -43,15 +48,18 @@ void FlimshawPartyDeviceApp::prepareSettings( Settings *settings )
 
 void FlimshawPartyDeviceApp::setup()
 {
+
+	// set up some default environment variables
 	mGravityDir = Vec2f(0.0, 1.0);
-	listener.setup(3000);
 	
-	host = "10.0.1.76";
+	// set up our OSC stuff
+	listener.setup(3000);
+	host = "10.0.0.2";
 	port = 3002;
 	sender.setup(host, port);
 	
 
-	
+	// the corpse of the old flickr xml loader
 	/*XmlDocument doc( loadUrlStream( "http://api.flickr.com/services/feeds/groups_pool.gne?id=1423039@N24&lang=en-us&format=rss_200" ) );	
 	vector<XmlElement> items( doc.xpath( "/rss/channel/item" ) );
 	for( vector<XmlElement>::iterator itemIter = items.begin(); itemIter != items.end(); ++itemIter ) {
@@ -70,10 +78,13 @@ void FlimshawPartyDeviceApp::mouseDown( MouseEvent event )
 {
 }
 
-void FlimshawPartyDeviceApp::update()
-{
-	mParticleController.update();
+void FlimshawPartyDeviceApp::handleBpmBang() {
 	
+}
+
+void FlimshawPartyDeviceApp::handleOSC()
+{
+	// loop through all queued OSC messages
 	while (listener.hasWaitingMessages()) {
 		osc::Message message;
 		osc::Message sendMessage;
@@ -93,8 +104,15 @@ void FlimshawPartyDeviceApp::update()
 			mParticleController.setGravityDir(mGravityDir);
 		} else if(address == "/1/multitoggle3/1/1") {
 			setFullScreen(!isFullScreen());
+		} else if(address == "/1/bpm_button") {
+			uint mBpmButton = message.getArgAsFloat(0);
+			if(mBpmButton == 1) {
+				mBpmClock.bang();
+			}
 		}
 		
+		
+		// debug functions for OSC info
 		console() << "New message received" << std::endl;
 		console() << "Address: " << message.getAddress() << std::endl;
 		console() << "Num Arg: " << message.getNumArgs() << std::endl;
@@ -130,6 +148,14 @@ void FlimshawPartyDeviceApp::update()
 		}
 		
 	}
+}
+
+void FlimshawPartyDeviceApp::update()
+{
+	mBpmClock.update();
+	handleOSC(); // read/write all pending OSC calls
+	mParticleController.update();
+	
 }
 
 void FlimshawPartyDeviceApp::draw()

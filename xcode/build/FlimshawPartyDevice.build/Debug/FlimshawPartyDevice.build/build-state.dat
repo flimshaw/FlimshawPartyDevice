@@ -1,7 +1,7 @@
 TFlimshawPartyDevice
 v7
 r0
-t311448263.777032
+t311521526.686812
 cCheck dependencies
 cProcessInfoPlistFile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
@@ -13,6 +13,7 @@ cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Object
 cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice normal i386
 cTouch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
 
@@ -8149,9 +8150,9 @@ t1287024574
 s114357
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp
-c000000004CE01B0E0000000000000FAA
-t1289755406
-s4010
+c000000004CE137AF00000000000011F6
+t1289828271
+s4598
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 i"cinder/gl/Texture.h"
@@ -8160,6 +8161,19 @@ i"cinder/Xml.h"
 i"ParticleController.h"
 i<string>
 i"OscListener.h"
+i"OscSender.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp
+c000000004CE13BB400000000000005C4
+t1289829300
+s1476
+i"BpmClock.h"
+i"cinder/app/AppBasic.h"
+
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.h
+c000000004CE13476000000000000029A
+t1289827446
+s666
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp
 c000000004CDC028500000000000003D6
@@ -8229,9 +8243,9 @@ i<vector>
 i<string>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp
-c000000004CE00B650000000000000E8D
-t1289751397
-s3725
+c000000004CE138590000000000000E58
+t1289828441
+s3672
 i"cinder/app/AppBasic.h"
 i"cinder/Rand.h"
 i"cinder/Vector.h"
@@ -8286,7 +8300,7 @@ i"cinder/Url.h"
 i<deque>
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-t1289755414
+t1289828726
 s102
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist
@@ -8294,8 +8308,8 @@ t1289417819
 s865
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
-t1289755414
-s5668848
+t1289828726
+s5671264
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/PkgInfo
 t1289417819
@@ -8441,18 +8455,22 @@ N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/
 t1289674057
 s1923352
 
+N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o
+t1289828725
+s385128
+
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlickrTexture.o
 t1289487280
 s733192
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList
-c000000004CDEDFFB00000000000004B7
-t1289674747
-s1207
+c000000004CE12F9D000000000000055F
+t1289826205
+s1375
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
-t1289755413
-s636704
+t1289828280
+s638752
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OSCListenerApp.o
 t1289674063
@@ -8487,8 +8505,8 @@ t1289752582
 s587316
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
-t1289751802
-s1039992
+t1289828449
+s1039016
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/TextureCache.o
 t2
@@ -8935,7 +8953,20 @@ s860
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311448263#311448263#0(0"0(0#1#0"8637208832#0"0#
+lSLF07#2@18"Check dependencies311521521#311521521#0(0"0(0#1#0"8618088160#0"0#
+
+CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s311521521.388898
+e311521525.269942
+r1
+xCompileC
+xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o
+x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp311521521#311521525#0(0"0(0#0#85"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp8620481344#2306"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlickrTexture.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311180076.181677
@@ -8951,8 +8982,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp311180076#311180080#0(0"0(0#0#90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp8609065056#2236"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlickrTexture.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311448207.858750
-e311448213.399350
+s311521071.718867
+e311521080.468581
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
@@ -8961,7 +8992,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311448207#311448213#0(0"0(0#0#106"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8622006688#2341"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
+lSLF07#2@114"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311521071#311521080#0(0"0(0#0#106"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8621191616#2341"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OSCListenerApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/samples/OSCListener/src/OSCListenerApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311272195.204742
@@ -9407,8 +9438,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp311445378#311445383#0(0"0(0#0#85"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp8631978816#2306"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311444598.868285
-e311444602.749457
+s311521244.786797
+e311521249.671062
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
@@ -9417,7 +9448,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp311444598#311444602#0(0"0(0#0#95"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp8638450432#2326"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
+lSLF07#2@103"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp311521244#311521249#0(0"0(0#0#95"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp8621390528#2326"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/TextureCache.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/TextureCache.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
@@ -10066,8 +10097,8 @@ xosc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symb
 lSLF07#2@99"Copy osc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symbols0.pbxsymbols311366857#311366857#0(0"0(0#0#167"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symbols0.pbxsymbols8609797024#524"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symbols0.pbxsymbols /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Resources0#
 
 CLd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice normal i386
-s311448213.399616
-e311448214.393604
+s311521525.270155
+e311521526.682309
 r1
 xLd
 x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
@@ -10075,7 +10106,7 @@ xnormal
 xi386
 old: warning: in /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)
 old: warning: in /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)
-lSLF07#2@148"Link /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice311448213#311448214#0(402"ld: warning: in /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)2(22@186"In /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)311448214#0#200#0(6@0"311448214#0#0#0#0#0"0(22@188"In /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)311448214#200#202#0(6@0"311448214#0#0#0#0#0"0(0#0#0"8632528768#1837"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/libs/msw -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/libs/osx -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/osx -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -filelist /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList -mmacosx-version-min=10.5 ../../../../../../../../Applications/cinder_0.8.2_mac/lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/osx/osc.a -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice0#
+lSLF07#2@148"Link /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice311521525#311521526#0(402"ld: warning: in /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)2(22@186"In /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)311521526#0#200#0(6@0"311521526#0#0#0#0#0"0(22@188"In /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)311521526#200#202#0(6@0"311521526#0#0#0#0#0"0(0#0#0"8620888960#1837"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/libs/msw -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/libs/osx -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw -L/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/osx -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -filelist /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList -mmacosx-version-min=10.5 ../../../../../../../../Applications/cinder_0.8.2_mac/lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc.lib /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/libs/osx/osc.a -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice0#
 
 CProcessInfoPlistFile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
 s311110619.747243
@@ -10113,10 +10144,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@41"Precompile FlimshawPartyDevice_Prefix.pch311367317#311367317#0(0"0(0#0#103"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch8610248896#2158"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch -o /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch.gch0#
 
 CTouch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-s311448214.393692
-e311448214.396317
+s311521526.682463
+e311521526.686764
 r1
 xTouch
 x/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-lSLF07#2@114"Touch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app311448214#311448214#0(0"0(0#0#0"8632681696#211"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /usr/bin/touch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app0#
+lSLF07#2@114"Touch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app311521526#311521526#0(0"0(0#0#0"8618607552#211"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /usr/bin/touch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app0#
 

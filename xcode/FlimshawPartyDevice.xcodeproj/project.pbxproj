@@ -28,6 +28,7 @@
 		CB2CE3B3128F1767006C92F9 /* osc.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2CE3AF128F1767006C92F9 /* osc.lib */; };
 		CB2CE3B4128F1767006C92F9 /* osc_d.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2CE3B0128F1767006C92F9 /* osc_d.lib */; };
 		CB2CE3B5128F1767006C92F9 /* osc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2CE3B2128F1767006C92F9 /* osc.a */; };
+		CBAD3B811291665800A6283B /* BpmClock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBAD3B801291665800A6283B /* BpmClock.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,8 @@
 		CB2CE3B2128F1767006C92F9 /* osc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = osc.a; sourceTree = "<group>"; };
 		CB6EBBEF128C42A900ED15FD /* ThreadedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadedImage.h; sourceTree = "<group>"; };
 		CB6EBBF0128C42A900ED15FD /* ThreadedImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadedImage.cpp; sourceTree = "<group>"; };
+		CBAD3B7F1291665800A6283B /* BpmClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BpmClock.h; sourceTree = "<group>"; };
+		CBAD3B801291665800A6283B /* BpmClock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BpmClock.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				CB6EBBF0128C42A900ED15FD /* ThreadedImage.cpp */,
 				CB241FA8128B3124001A816F /* Particle.cpp */,
 				00BAE6590E7ED9C10018A608 /* FlimshawPartyDeviceApp.cpp */,
+				CBAD3B801291665800A6283B /* BpmClock.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -172,6 +176,7 @@
 				CB241FA7128B3124001A816F /* Particle.h */,
 				CB241FAE128B3149001A816F /* ParticleController.h */,
 				CB6EBBEF128C42A900ED15FD /* ThreadedImage.h */,
+				CBAD3B7F1291665800A6283B /* BpmClock.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 				CB2CE3AA128F175E006C92F9 /* OscListener.cpp in Sources */,
 				CB2CE3AB128F175E006C92F9 /* OscMessage.cpp in Sources */,
 				CB2CE3AC128F175E006C92F9 /* OscSender.cpp in Sources */,
+				CBAD3B811291665800A6283B /* BpmClock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
