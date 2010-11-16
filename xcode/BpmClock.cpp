@@ -16,9 +16,9 @@ using namespace ci::app;
 BpmClock::BpmClock()
 {
 	timerRunning = false; // start off not running a timer
-	mBpm = 120; // default BPMs
+	mBpmTicks = (CLOCKS_PER_SEC * 60) / 120; // set us to 120bpm by default
+	mStartTime = clock();
 	mBpmFrames = 15;
-	
 	cMinBpmFrames = 4; // max BPM frame count
 	cFps = 30; // our frames per second
 	
@@ -31,14 +31,14 @@ void BpmClock::setup() {
 void BpmClock::update()
 {
 	if(timerRunning) { // if we're currently timing bpms
-		mBpmTimerCounter++; // then increment our frame counter
+		mBpmTimerCounter = clock(); // then increment our frame counter
 	}
 	
-	if(mBpmRunningCounter >= mBpmFrames) { // if we've reached our timer
-		mBpmRunningCounter = 0; // reset it
+	mBpmRunningCounter = clock();
+	if(mBpmRunningCounter >= (mBpmTicks + mStartTime)) { // if we've reached our timer
+		mBpmRunningCounter = clock(); // reset it
+		mStartTime = clock(); // and reset our start time marker
 		bangOn(); // and bang on
-	} else {
-		mBpmRunningCounter++; // otherwise keep incrementing
 	}
 }
 

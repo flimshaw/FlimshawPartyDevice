@@ -8,6 +8,7 @@
  */
 
 #include "cinder/app/AppBasic.h"
+#include "time.h"
 
 class BpmClock {
 public:
@@ -20,8 +21,13 @@ public:
 	bool timerRunning; // flag to tell us if we're currently timing something
 	uint mBpm; // current bpm count
 	uint mBpmFrames; // conversion of bpm count to frame count
-	uint mBpmRunningCounter; // variable for how many frames have passed so far for normal use
-	uint mBpmTimerCounter; // variable for use when timing bpms for new settings
+	
+	clock_t mBpmTicks;
+	clock_t mBpmRunningCounter; // variable for how many frames have passed so far for normal use
+	clock_t mBpmTimerCounter; // variable for use when timing bpms for new settings
+	
+	clock_t mStartTime;
+	
 	
 	uint cMinBpmFrames;
 	uint cFps;

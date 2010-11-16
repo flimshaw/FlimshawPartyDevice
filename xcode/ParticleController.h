@@ -45,6 +45,7 @@ public:
 	list<int>::iterator textureIterator;
 	
 	Vec2f mGravityDir;
+	float mLastAudioLevel;
 	
 	audio::Input mInput;
 	boost::shared_ptr<float> mFftDataRef;

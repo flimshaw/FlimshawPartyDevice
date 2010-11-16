@@ -16,6 +16,7 @@
 #include "boost/filesystem/operations.hpp"
 #include "boost/filesystem/fstream.hpp"
 #include <iostream>
+#include "time.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -41,7 +42,7 @@ ParticleController::ParticleController()
 	
 //	textureIterator = mImageFiles.begin();
 	
-	particleMax = 20;
+	particleMax = 100;
 	mGravityDir = Vec2f(0.0, 1.0);
 	mInput = audio::Input();
 	mInput.start();
@@ -110,14 +111,26 @@ void ParticleController::draw()
 	
 	float * fftBuffer = mFftDataRef.get();
 	float audioLevel = 0.0f;
+	float filteredAudioLevel = 0.0f;
 	for( int i = 0; i < ( bandCount ); i++ ) {
 		audioLevel = audioLevel + fftBuffer[i];
 	}
 	audioLevel = audioLevel / bandCount;
 	//audioLevel = (bufferScratch / bufferSamples) * 1000 + 50;
 	
+	float x = .03;
+	float audioScaler = .75;
+	// run the filter:
+	filteredAudioLevel = ((x * audioLevel + (10-x)*mLastAudioLevel)/10) * audioScaler;
+	// return the result:
+	
+	filteredAudioLevel *= .45;
+	filteredAudioLevel += .3;
+	
+	mLastAudioLevel = filteredAudioLevel;	
+	
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ++p ){
-		p->setAudioLevel(audioLevel);
+		p->setAudioLevel(filteredAudioLevel);
 		p->draw();
 	}
 	

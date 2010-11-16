@@ -55,13 +55,8 @@ void Particle::setVelScale(float velScale) {
 }
 
 void Particle::reactToAudio() {
-	--mScale;
-	mScale = mScale + (mAudioLevel * .002);
-	if(mScale < 1.0) {
-		mScale = 1.0;
-	} else if(mScale > 1.5) {
-		mScale = 1.5;
-	}
+	
+	mScale = mAudioLevel;
 }
 
 void Particle::update()

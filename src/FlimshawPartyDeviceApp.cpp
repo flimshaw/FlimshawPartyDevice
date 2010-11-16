@@ -162,6 +162,7 @@ void FlimshawPartyDeviceApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
+	gl::enableAlphaBlending();
 	mParticleController.draw();
 }
 
