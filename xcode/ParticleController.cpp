@@ -46,10 +46,13 @@ ParticleController::ParticleController()
 	mParticleCount = 100;
 	mGravityDir = Vec2f(0.0, 1.0);
 	textureCounter = 0;
-	mAudioScale = .5;
-	mSmoothness = .03;
-	mMinSize = .3;
-	mMaxSize = 1.5;
+	mAudioScale = .1;
+	mSmoothness = .1;
+	mMinSize = .3f;
+	mMaxSize = 1.0f;
+	mDefaultScale = 1.0;
+	mRandomParticleVectors = false;
+	mAudioEnable = true;
 	
 	mInput = audio::Input();
 	mInput.start();
@@ -57,6 +60,28 @@ ParticleController::ParticleController()
 }
 
 // all our fun scaling functions
+void ParticleController::setRandomParticleVectors(bool randomParticleVectors) {
+	mRandomParticleVectors = randomParticleVectors;
+	if(mRandomParticleVectors) {
+		randomizeVectors();
+	} else {
+		setGravityDir(mGravityDir);
+	}
+}
+
+void ParticleController::setSpeedScale(float speedScale) {
+	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
+		p->setVelScale(speedScale);
+		++p;
+	}
+}
+
+void ParticleController::invertVelocity() {
+	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
+		p->invertVelocity();
+		++p;
+	}
+}
 
 void ParticleController::setAudioScale(float audioScale) {
 	mAudioScale = audioScale;
@@ -68,6 +93,14 @@ void ParticleController::setMinSize(float minSize) {
 
 void ParticleController::setMaxSize(float maxSize) {
 	mMaxSize = maxSize;
+}
+
+void ParticleController::setDefaultScale(float defaultScale) {
+	mDefaultScale = defaultScale;
+	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
+		p->setScale(mDefaultScale);
+		++p;
+	}
 }
 
 void ParticleController::setSmoothness(float smoothness) {
@@ -82,9 +115,16 @@ void ParticleController::setParticleMax(int particleCount) {
 }
 
 void ParticleController::setGravityDir(Vec2f newGravityDir) {
+	mGravityDir = newGravityDir;
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
-		mGravityDir = newGravityDir;
-		p->setGravityDir(newGravityDir);
+		p->setGravityDir(mGravityDir);
+		++p;
+	}
+}
+
+void ParticleController::randomizeVectors() {
+	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
+		p->setRandomVector();
 		++p;
 	}
 }
@@ -128,13 +168,14 @@ void ParticleController::update()
 
 void ParticleController::draw()
 {	
-	
+	float particleSize = 0.0f;
 	uint16_t bandCount = 512;
 	
 	if( ! mFftDataRef ) {
 		return;
 	}
 	
+	// grab our FFT data and reduce it down to a basic level reading
 	float * fftBuffer = mFftDataRef.get();
 	float audioLevel = 0.0f;
 	float filteredAudioLevel = 0.0f;
@@ -142,22 +183,21 @@ void ParticleController::draw()
 		audioLevel = audioLevel + fftBuffer[i];
 	}
 	audioLevel = audioLevel / bandCount;
-	//audioLevel = (bufferScratch / bufferSamples) * 1000 + 50;
 	
 	// run the filter:
-	filteredAudioLevel = ((mSmoothness * audioLevel + (10-mSmoothness)*mLastAudioLevel)/10) * mAudioScale;
-	// return the result:
+	filteredAudioLevel = mSmoothness * audioLevel + (1-mSmoothness)*mLastAudioLevel;
+	mLastAudioLevel = filteredAudioLevel;
 	
-	filteredAudioLevel += mMinSize;
+	// scale our filtered audio level appropriately and make it our particle size
+	particleSize = filteredAudioLevel * mAudioScale;
 	
-	if(filteredAudioLevel > mMaxSize) {
-		filteredAudioLevel = mMaxSize;
+	// make sure we're within our boundaries
+	if(particleSize > mMaxSize) {
+		particleSize = mMaxSize;
 	}
 	
-	mLastAudioLevel = filteredAudioLevel;	
-	
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ++p ){
-		p->setAudioLevel(filteredAudioLevel);
+		p->setAudioLevel(particleSize);
 		p->draw();
 	}
 	
@@ -187,7 +227,6 @@ void ParticleController::addParticles( int amt )
 				Particle newParticle = Particle( Vec2f( x, y ), "/flickr/" + nextImage );
 				mParticles.push_back( newParticle );
 			}
-			
 		}
 	}
 }

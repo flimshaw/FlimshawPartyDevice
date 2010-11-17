@@ -1,11 +1,11 @@
 TFlimshawPartyDevice
 v7
 r0
-t311700720.414536
+t311724896.729207
 cCheck dependencies
 cProcessInfoPlistFile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
-cProcessPCH++ /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch.gch FlimshawPartyDevice_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch.gch FlimshawPartyDevice_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -18,30 +18,31 @@ cLd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debu
 cTouch /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/OscArg.h
-c000000004BF476700000000000000C1D
-t1274312304
-s3101
+c000000004CB66FB80000000000000C11
+t1287024568
+s3089
 i<string>
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/OscBundle.h
-c000000004BF4767000000000000008C8
-t1274312304
-s2248
+c000000004CB66FB800000000000008BC
+t1287024568
+s2236
 i<vector>
 i"OscMessage.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/OscListener.h
-c000000004BF476700000000000000734
-t1274312304
-s1844
+c000000004CB66FB80000000000000B36
+t1287024568
+s2870
 i"cinder/Cinder.h"
+i"cinder/Function.h"
 i"OscMessage.h"
 i"OscArg.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/OscMessage.h
-c000000004BF476700000000000000B90
-t1274312304
-s2960
+c000000004CB66FB80000000000000B84
+t1287024568
+s2948
 i"cinder/Cinder.h"
 i"cinder/Exception.h"
 i"OscArg.h"
@@ -49,44 +50,44 @@ i<string>
 i<vector>
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/OscSender.h
-c000000004BF476700000000000000752
-t1274312304
-s1874
+c000000004CB66FB80000000000000746
+t1287024568
+s1862
 i<string>
 i"OscBundle.h"
 i"OscMessage.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/ip/UdpSocket.h
-c000000004BF47670000000000000151A
-t1274312304
+c000000004CB66FB8000000000000151A
+t1287024568
 s5402
 i"NetworkingUtils.h"
 i"IpEndpointName.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/osc/OscOutboundPacketStream.h
-c000000004BF4767000000000000013B2
-t1274312304
+c000000004CB66FB800000000000013B2
+t1287024568
 s5042
 i"OscTypes.h"
 i"OscException.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/osc/OscPacketListener.h
-c000000004BF476700000000000000A2C
-t1274312304
+c000000004CB66FB80000000000000A2C
+t1287024568
 s2604
 i"OscReceivedElements.h"
 i"../ip/PacketListener.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/osc/OscReceivedElements.h
-c000000004BF476700000000000003301
-t1274312304
+c000000004CB66FB80000000000003301
+t1287024568
 s13057
 i"OscTypes.h"
 i"OscException.h"
 
 N/Applications/cinder_0.8.2_mac/blocks/osc/include/osc/OscTypes.h
-c000000004BF476700000000000001062
-t1274312304
+c000000004CB66FB80000000000001062
+t1287024568
 s4194
 
 N/Applications/cinder_0.8.2_mac/boost/boost/aligned_storage.hpp
@@ -7708,14 +7709,14 @@ i"cinder/Filter.h"
 i"cinder/Rect.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../resources/CinderApp.icns
-c000000004CB66FBE000000000001BEB5
-t1287024574
+c000000004CE3F7E2000000000001BEB5
+t1290008546
 s114357
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp
-c000000004CE36A450000000000001410
-t1289972293
-s5136
+c000000004CE43F94000000000000160E
+t1290026900
+s5646
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 i"cinder/gl/Texture.h"
@@ -7728,29 +7729,29 @@ i"OscSender.h"
 i"BpmClock.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp
-c000000004CE1ED16000000000000063A
-t1289874710
+c000000004CE3F7E2000000000000063A
+t1290008546
 s1594
 i"BpmClock.h"
 i"cinder/app/AppBasic.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.h
-c000000004CE1EC9900000000000002E1
-t1289874585
+c000000004CE3F7E200000000000002E1
+t1290008546
 s737
 i"cinder/app/AppBasic.h"
 i"time.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch
-c000000004CDAF33D0000000000000093
-t1289417533
+c000000004CE3F7E20000000000000093
+t1290008546
 s147
 i<Cocoa/Cocoa.h>
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp
-c000000004CE1DBD1000000000000071D
-t1289870289
-s1821
+c000000004CE43E2B00000000000007B9
+t1290026539
+s1977
 i"Particle.h"
 i"cinder/Rand.h"
 i"cinder/ImageIO.h"
@@ -7759,9 +7760,9 @@ i"cinder/app/AppBasic.h"
 i"ThreadedImage.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.h
-c000000004CE00CEF0000000000000365
-t1289751791
-s869
+c000000004CE43C5900000000000003AD
+t1290026073
+s941
 i"cinder/Channel.h"
 i"cinder/Vector.h"
 i"cinder/gl/gl.h"
@@ -7772,9 +7773,9 @@ i<vector>
 i<string>
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp
-c000000004CE3689500000000000011C9
-t1289971861
-s4553
+c000000004CE453BD000000000000162F
+t1290032061
+s5679
 i"cinder/app/AppBasic.h"
 i"cinder/Rand.h"
 i"cinder/Vector.h"
@@ -7788,9 +7789,9 @@ i<iostream>
 i"time.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.h
-c000000004CE3164A00000000000005C9
-t1289950794
-s1481
+c000000004CE414850000000000000669
+t1290015877
+s1641
 i"Particle.h"
 i"cinder/app/AppCocoaTouch.h"
 i"cinder/app/AppBasic.h"
@@ -7801,8 +7802,8 @@ i<list>
 i<string>
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ThreadedImage.h
-c000000004CDC0BA30000000000000689
-t1289489315
+c000000004CE3F7E20000000000000689
+t1290008546
 s1673
 i"cinder/app/AppBasic.h"
 i"cinder/gl/Texture.h"
@@ -7813,61 +7814,61 @@ i"cinder/Url.h"
 i<deque>
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-t1290007920
+t1290032096
 s102
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Info.plist
-t1289417819
+t1290008546
 s865
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
-t1290007920
-s5669044
+t1290032096
+s5674372
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/PkgInfo
-t1289417819
+t1290008546
 s8
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Resources/CinderApp.icns
-t1289674352
+t1290008546
 s114357
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o
-t1290007919
+t1290008589
 s384332
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList
-c000000004CE3F5320000000000000527
-t1290007858
+c000000004CE3F7E20000000000000527
+t1290008546
 s1319
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
-t1290007914
-s639140
+t1290026969
+s640572
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o
-t1290007914
+t1290008581
 s132972
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o
-t1290007915
+t1290008583
 s455156
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o
-t1290007916
+t1290008583
 s104056
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o
-t1290007916
+t1290008584
 s109864
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o
-t1290007913
-s585596
+t1290026551
+s586924
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
-t1290007918
-s1039932
+t1290032095
+s1043856
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/include/OscArg.h
 c000000004BF476700000000000000C1D
@@ -7909,57 +7910,57 @@ i"OscBundle.h"
 i"OscMessage.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/include/ip/IpEndpointName.h
-c000000004BF476700000000000000AF5
-t1274312304
+c000000004CE3F7E20000000000000AF5
+t1290008546
 s2805
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/include/ip/NetworkingUtils.h
-c000000004BF4767000000000000007AA
-t1274312304
+c000000004CE3F7E200000000000007AA
+t1290008546
 s1962
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/include/osc/OscException.h
-c000000004BF4767000000000000007E0
-t1274312304
+c000000004CE3F7E200000000000007E0
+t1290008546
 s2016
 i<exception>
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/include/osc/OscReceivedElements.h
-c000000004BF476700000000000003301
-t1274312304
+c000000004CE3F7E20000000000003301
+t1290008546
 s13057
 i"OscTypes.h"
 i"OscException.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/include/osc/OscTypes.h
-c000000004BF476700000000000001062
-t1274312304
+c000000004CE3F7E20000000000001062
+t1290008546
 s4194
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib
-c000000004BF4767000000000000EB32C
-t1274312304
+c000000004CE3F7E200000000000EB32C
+t1290008546
 s963372
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib
-c000000004BF476700000000000188C26
-t1274312304
+c000000004CE3F7E20000000000188C26
+t1290008546
 s1608742
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/osx/osc.a
-c000000004BF47670000000000004BDD8
-t1274312304
+c000000004CE3F7E2000000000004BDD8
+t1290008546
 s310744
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp
-c000000004BF4767000000000000007ED
-t1274312304
+c000000004CE3F7E200000000000007ED
+t1290008546
 s2029
 i"OscBundle.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp
-c000000004BF4767000000000000012FA
-t1274312304
+c000000004CE3F7E200000000000012FA
+t1290008546
 s4858
 i"cinder/Thread.h"
 i"cinder/Utilities.h"
@@ -7974,14 +7975,14 @@ i<assert.h>
 i<deque>
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp
-c000000004BF4767000000000000010B9
-t1274312304
+c000000004CE3F7E200000000000010B9
+t1290008546
 s4281
 i"OscMessage.h"
 
 N/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp
-c000000004BF476700000000000001060
-t1274312304
+c000000004CE3F7E20000000000001060
+t1290008546
 s4192
 i"OscSender.h"
 i"osc/OscOutboundPacketStream.h"
@@ -8145,23 +8146,23 @@ t1243557219
 s42464
 
 N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004B91D92A00000000000AD420
-t1267849514
-s709664
+c000000004C93B60C00000000000AD430
+t1284748812
+s709680
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004C584E830000000000043310
-t1280855683
-s275216
+c000000004CD4F7840000000000043330
+t1289025412
+s275248
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000004BF9CAFF00000000006705C0
-t1274661631
-s6751680
+c000000004CC7B01A00000000006705E0
+t1288155162
+s6751712
 
 N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004BF9C9EC0000000000783950
-t1274661356
+c000000004CC7AED00000000000783950
+t1288154832
 s7878992
 
 N/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/include/OscArg.h
@@ -9295,18 +9296,22 @@ N/var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1289949061
 s2515312
 
+N/var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch.gch
+t1290008580
+s2515312
+
 NInfo.plist
-c000000004CDAF33D000000000000035C
-t1289417533
+c000000004CE3F7E2000000000000035C
+t1290008546
 s860
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311700710#311700710#0(0"0(0#1#0"8614774464#0"0#
+lSLF07#2@18"Check dependencies311724892#311724892#0(0"0(0#1#0"8600372320#0"0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700716.645516
-e311700719.209762
+s311701384.368471
+e311701390.251334
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o
@@ -9315,7 +9320,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp311700716#311700719#0(0"0(0#0#78"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp8600595008#2094"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o0#
+lSLF07#2@86"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp311701384#311701390#0(0"0(0#0#78"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp8606879104#2094"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/BpmClock.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/BpmClock.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/BpmClock.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311641915.218088
@@ -9344,8 +9349,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp311180076#311180080#0(0"0(0#0#90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp8609065056#2236"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlickrTexture.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlickrTexture.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700710.441742
-e311700714.106898
+s311719766.575196
+e311719770.003016
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o
@@ -9354,7 +9359,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311700710#311700714#0(0"0(0#0#99"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8606598720#2129"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
+lSLF07#2@107"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp311719766#311719770#0(0"0(0#0#99"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp8624168576#2129"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDeviceApp.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../src/FlimshawPartyDeviceApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311665094.945984
@@ -9422,8 +9427,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@123"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCSender/src/OSCSenderApp.cpp311366863#311366868#0(0"0(0#0#115"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCSender/src/OSCSenderApp.cpp8601794624#2260"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCSender/src/OSCSenderApp.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OSCSenderApp.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700714.106999
-e311700714.479726
+s311701380.618008
+e311701381.323267
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o
@@ -9432,7 +9437,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp311700714#311700714#0(0"0(0#0#83"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp8616277024#2100"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o0#
+lSLF07#2@91"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp311701380#311701381#0(0"0(0#0#83"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp8602899968#2100"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscBundle.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/src/OscBundle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311272200.274227
@@ -9474,8 +9479,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp311641912#311641912#0(0"0(0#0#90"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp8618707616#2312"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscBundle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscBundle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700714.479823
-e311700715.924661
+s311701381.323418
+e311701383.253382
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o
@@ -9484,7 +9489,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp311700714#311700715#0(0"0(0#0#85"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp8614634304#2104"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o0#
+lSLF07#2@93"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp311701381#311701383#0(0"0(0#0#85"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp8604450144#2104"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscListener.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/src/OscListener.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311272200.716886
@@ -9614,8 +9619,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp311641912#311641914#0(0"0(0#0#92"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp8611146240#2316"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscListener.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscListener.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700715.924843
-e311700716.284104
+s311701383.253649
+e311701383.753693
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o
@@ -9624,7 +9629,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp311700715#311700716#0(0"0(0#0#84"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp8616696896#2102"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o0#
+lSLF07#2@92"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp311701383#311701383#0(0"0(0#0#84"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp8603506816#2102"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscMessage.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/src/OscMessage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311272202.208276
@@ -9666,8 +9671,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp311641914#311641914#0(0"0(0#0#91"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp8615099616#2314"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/src/OscMessage.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscMessage.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700716.284205
-e311700716.645418
+s311701383.753841
+e311701384.368296
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o
@@ -9676,7 +9681,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp311700716#311700716#0(0"0(0#0#83"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp8613499168#2100"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o0#
+lSLF07#2@91"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp311701383#311701384#0(0"0(0#0#83"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp8602980672#2100"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/src/OscSender.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/OscSender.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/../blocks/osc/src/OscSender.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311272202.642237
@@ -9852,8 +9857,8 @@ o/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Paricl
 lSLF07#2@102"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111705#311111709#0(4211"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:12:32: error: ParticleController.h: No such file or directory/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:17: error: 'ParticleController' has not been declared/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:17: error: ISO C++ forbids declaration of 'ParticleController' with no type/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:21: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void update()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: 'Particle' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: wrong number of template arguments (1, should be 2)../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp:81: error: provided for 'template<class T, class Allocator> struct std::list'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: expected initializer before 'p'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:23: error: 'mParticles' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:28: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void draw()':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: 'Particle' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: wrong number of template arguments (1, should be 2)../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp:81: error: provided for 'template<class T, class Allocator> struct std::list'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: expected initializer before 'p'/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: 'p' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:30: error: 'mParticles' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:35: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void addParticles(int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:41: error: 'mParticles' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:41: error: 'Particle' was not declared in this scope/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: At global scope:/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:45: error: 'ParticleController' is not a class or namespace/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp: In function 'void removeParticles(int)':/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp:49: error: 'mParticles' was not declared in this scope25(4@47"ParticleController.h: No such file or directory311111707#0#157#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#12#0#12#0#28"*: No such file or directory0(4@42"'ParticleController' has not been declared311111708#157#149#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#17#0#17#0#25"'*' has not been declared0(4@64"ISO C++ forbids declaration of 'ParticleController' with no type311111708#306#171#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#17#0#17#0#47"ISO C++ forbids declaration of '*' with no type0(4@48"'ParticleController' is not a class or namespace311111708#477#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#21#0#21#0#0"0(4@41"'Particle' was not declared in this scope311111708#757#148#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#34"'*' was not declared in this scope0(4@51"Wrong number of template arguments (1, should be 2)311111708#905#158#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#0"0(4@66"Provided for 'template<class T, class Allocator> struct std::list'311111708#1063#169#0(6@90"../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp287857881#81#0#81#0#0"0(4@31"Expected initializer before 'p'311111708#1232#138#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#19"expected * before *0(4@34"'p' was not declared in this scope311111708#1370#141#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#34"'*' was not declared in this scope0(4@43"'mParticles' was not declared in this scope311111708#1511#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#23#0#23#0#34"'*' was not declared in this scope0(23@16"At global scope:311111708#1661#113#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#0#0#0#0#0"0(4@48"'ParticleController' is not a class or namespace311111708#1774#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#28#0#28#0#0"0(4@41"'Particle' was not declared in this scope311111708#2052#148#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#34"'*' was not declared in this scope0(4@51"Wrong number of template arguments (1, should be 2)311111708#2200#158#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#0"0(4@66"Provided for 'template<class T, class Allocator> struct std::list'311111708#2358#169#0(6@90"../../../../../../../../Applications/cinder_0.8.2_mac/boost/boost/detail/container_fwd.hpp287857881#81#0#81#0#0"0(4@31"Expected initializer before 'p'311111708#2527#138#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#19"expected * before *0(4@34"'p' was not declared in this scope311111708#2665#141#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#34"'*' was not declared in this scope0(4@43"'mParticles' was not declared in this scope311111708#2806#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#30#0#30#0#34"'*' was not declared in this scope0(23@16"At global scope:311111708#2956#113#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#0#0#0#0#0"0(4@48"'ParticleController' is not a class or namespace311111708#3069#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#35#0#35#0#0"0(4@43"'mParticles' was not declared in this scope311111708#3358#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#41#0#41#0#34"'*' was not declared in this scope0(4@41"'Particle' was not declared in this scope311111708#3508#148#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#41#0#41#0#34"'*' was not declared in this scope0(23@16"At global scope:311111708#3656#113#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#0#0#0#0#0"0(4@48"'ParticleController' is not a class or namespace311111708#3769#155#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#45#0#45#0#0"0(4@43"'mParticles' was not declared in this scope311111708#4061#150#0(6@94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp311111602#49#0#49#0#34"'*' was not declared in this scope0(0#0#94"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp8625479104#2244"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-aqahjvhshxmmplcydxqdwruyzxle/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParicleController.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParicleController.o1#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700710.443419
-e311700713.970559
+s311719340.606299
+e311719351.529774
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o
@@ -9862,7 +9867,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp311700710#311700713#0(0"0(0#0#78"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp8599106592#2094"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
+lSLF07#2@86"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp311719340#311719351#0(0"0(0#0#78"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp8625034336#2094"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/Particle.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311641906.514705
@@ -9878,8 +9883,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp311641906#311641912#0(0"0(0#0#85"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp8617952160#2306"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-dvvlqhncshjryecmimvgmifrdgtx/FlimshawPartyDevice_Prefix.pch -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/Particle.cpp -o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/Particle.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s311700713.970739
-e311700718.085021
+s311724892.237830
+e311724895.738089
 r1
 xCompileC
 xbuild/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o
@@ -9888,7 +9893,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp311700713#311700718#0(0"0(0#0#88"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp8617624128#2114"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
+lSLF07#2@96"Compile /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp311724892#311724895#0(0"0(0#0#88"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp8599047584#2114"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -include /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/ParticleController.cpp -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o0#
 
 CCompileC build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/ParticleController.o /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s311664664.210330
@@ -10550,16 +10555,20 @@ xosc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symb
 lSLF07#2@99"Copy osc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symbols0.pbxsymbols311366857#311366857#0(0"0(0#0#167"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symbols0.pbxsymbols8609797024#524"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/osc/samples/OSCListener/xcode/build/OSCListener.build/OSCListener.pbxindex/symbols0.pbxsymbols /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/Resources0#
 
 CLd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice normal i386
-s311700719.209859
-e311700720.410829
+s311724895.738226
+e311724896.725719
 r1
 xLd
 x/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice
 xnormal
 xi386
+old: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone' following -L not found
+old: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx' following -L not found
+old: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/msw' following -L not found
+old: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/osx' following -L not found
 old: warning: in /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)
 old: warning: in /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)
-lSLF07#2@141"Link /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice311700719#311700720#0(388"ld: warning: in /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)2(22@179"In /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)311700720#0#193#0(6@0"311700720#0#0#0#0#0"0(22@181"In /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)311700720#193#195#0(6@0"311700720#0#0#0#0#0"0(0#0#0"8614320000#1694"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/msw -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/osx -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/osx -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -filelist /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList -mmacosx-version-min=10.5 ../../../lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/osx/osc.a -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice0#
+lSLF07#2@141"Link /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice311724895#311724896#0(920"ld: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone' following -L not foundld: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx' following -L not foundld: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/msw' following -L not foundld: warning: directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/osx' following -L not foundld: warning: in /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)6(22@125"Directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone' following -L not found311724896#0#139#0(6@0"311724896#0#0#0#0#0"0(22@125"Directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx' following -L not found311724896#139#139#0(6@0"311724896#0#0#0#0#0"0(22@113"Directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/msw' following -L not found311724896#278#127#0(6@0"311724896#0#0#0#0#0"0(22@113"Directory '/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/osx' following -L not found311724896#405#127#0(6@0"311724896#0#0#0#0#0"0(22@179"In /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib, file was built for unsupported file format which is not the architecture being linked (i386)311724896#532#193#0(6@0"311724896#0#0#0#0#0"0(22@181"In /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib, file was built for unsupported file format which is not the architecture being linked (i386)311724896#725#195#0(6@0"311724896#0#0#0#0#0"0(0#0#0"8622942656#1694"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/iphone -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/../blocks/osc/lib/macosx -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/msw -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/osc/libs/osx -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw -L/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/osx -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -filelist /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/Objects-normal/i386/FlimshawPartyDevice.LinkFileList -mmacosx-version-min=10.5 ../../../lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc.lib /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/msw/osc_d.lib /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/libs/osx/osc.a -o /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice0#
 
 CLd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app/Contents/MacOS/FlimshawPartyDevice normal i386
 s311665097.932057
@@ -10679,13 +10688,26 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@41"Precompile FlimshawPartyDevice_Prefix.pch311641861#311641861#0(0"0(0#0#103"/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch8614409504#2140"    cd /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug -iquote../../../../../../Applications/cinder_0.8.2_mac/include -iquote../include -iquote../../../../../../Applications/cinder_0.8.2_mac/blocks/osc/include -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/include -I../../../../../../Applications/cinder_0.8.2_mac/boost -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -c /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch -o /var/folders/6O/6OPEmE2tH0CHyLG6YWUnIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-gcvjdwgvbdtwmafyhvqyixmveime/FlimshawPartyDevice_Prefix.pch.gch0#
 
+CProcessPCH++ /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch.gch FlimshawPartyDevice_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+s311701380.439444
+e311701380.615318
+r1
+xProcessPCH++
+x/var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch.gch
+xFlimshawPartyDevice_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile FlimshawPartyDevice_Prefix.pch311701380#311701380#0(0"0(0#0#96"/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch7378429254039856128#1953"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-generated-files.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-own-target-headers.hmap -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-all-target-headers.hmap -iquote /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/FlimshawPartyDevice-project-headers.hmap -F/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug -iquote../../../include -iquote../include -iquote../../../blocks/osc/include -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/include -I../../../boost -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources/i386 -I/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/FlimshawPartyDevice.build/Debug/FlimshawPartyDevice.build/DerivedSources -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/FlimshawPartyDevice_Prefix.pch -o /var/folders/en/enFFld0XHpaumHf3GAgCVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FlimshawPartyDevice_Prefix-ecmgwzgjvizcusdrxkkarlvpugma/FlimshawPartyDevice_Prefix.pch.gch0#
+
 CTouch /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-s311700720.410989
-e311700720.414510
+s311724896.725872
+e311724896.729159
 r1
 xTouch
 x/Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
-lSLF07#2@107"Touch /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app311700720#311700720#0(0"0(0#0#0"8616679200#197"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    /usr/bin/touch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app0#
+lSLF07#2@107"Touch /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app311724896#311724896#0(0"0(0#0#0"8618533088#197"    cd /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode    /usr/bin/touch -c /Applications/cinder_0.8.2_mac/projects/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app0#
 
 CTouch /Users/charlie/Dropbox/Projects/virtual/cinder/FlimshawPartyDevice/xcode/build/Debug/FlimshawPartyDevice.app
 s311665098.860610

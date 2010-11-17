@@ -54,13 +54,21 @@ void Particle::setVelScale(float velScale) {
 	mVelScale = velScale;
 }
 
+void Particle::invertVelocity() {
+	mVel *= -1;
+}
+
+void Particle::setRandomVector() {
+	mDir = Vec2f(Rand::randFloat(2.0f) - 1.0f, Rand::randFloat(2.0f) - 1.0f);
+}
+
 void Particle::reactToAudio() {
-	
-	mScale = mAudioLevel;
+	mParticleSize += mAudioLevel;
 }
 
 void Particle::update()
 {
+	mParticleSize = mScale;
 	mLoc += mDir * (mVel * mVelScale);
 	reactToAudio();
 	if(mLoc.x < -mTexture.getWidth() || mLoc.x >= app::getWindowWidth() || mLoc.y >= (app::getWindowHeight() + mTexture.getHeight())) {
@@ -72,8 +80,6 @@ void Particle::draw()
 {
 	float centerX = mLoc.x - ((mScale * mTexture.getWidth()) / 2);
 	float centerY = mLoc.y - ((mScale * mTexture.getHeight()) / 2);
-	Rectf rect( centerX, centerY, centerX + (mScale * mTexture.getWidth()), centerY + (mScale * mTexture.getHeight()) );
-	//gl::color(mColor);
-	//gl::drawSolidRect( rect );
+	Rectf rect( centerX, centerY, centerX + (mParticleSize * mTexture.getWidth()), centerY + (mParticleSize * mTexture.getHeight()) );
 	gl::draw(mTexture, rect);
 }

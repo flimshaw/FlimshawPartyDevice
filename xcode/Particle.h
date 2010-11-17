@@ -30,6 +30,8 @@ public:
 	void setVelScale(float velScale);
 	void setGravityDir(Vec2f newGravityDir);
 	void setAudioLevel(float audioLevel);
+	void setRandomVector();
+	void invertVelocity();
 	void reactToAudio();
 	
 	ci::Vec2f	mLoc;
@@ -38,6 +40,7 @@ public:
 	float		mVel;
 	float		mVelScale;
 	float		mScale;
+	float		mParticleSize;
 	float		mAudioLevel;
 	
 	gl::Texture mTexture;

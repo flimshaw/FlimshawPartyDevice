@@ -40,6 +40,9 @@ public:
 	void setMaxSize(float maxSize);
 	void setDefaultScale(float defaultScale);
 	void setSpeedScale(float speedScale);
+	void setRandomParticleVectors(bool randomParticleVectors);
+	void invertVelocity();
+	void randomizeVectors();
 	
 	float mAudioScale;
 	float mSmoothness;
@@ -47,6 +50,8 @@ public:
 	float mMaxSize;
 	float mDefaultScale;
 	float mSpeedScale;
+	bool mRandomParticleVectors;
+	bool mAudioEnable;
 
 	std::list<Particle>	mParticles;
 	std::list<Url> mTextures;

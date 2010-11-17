@@ -106,11 +106,20 @@ void FlimshawPartyDeviceApp::handleOSC()
 			mParticleController.setMinSize(message.getArgAsFloat(0));
 		} else if(address == "/1/audio_max_size") {
 			mParticleController.setMaxSize(message.getArgAsFloat(0));
+		} else if(address == "/1/particle_speed_scale") {
+			mParticleController.setSpeedScale(message.getArgAsFloat(0));
+		} else if(address == "/1/particle_default_scale") {
+			mParticleController.setDefaultScale(message.getArgAsFloat(0));
 		} else if(address == "/1/gravity_dir") {
 			mGravityDir = Vec2f(message.getArgAsFloat(0) -1.0f, message.getArgAsFloat(1) -1.0f);
 			mParticleController.setGravityDir(mGravityDir);
-		} else if(address == "/1/multitoggle3/1/1") {
-			setFullScreen(!isFullScreen());
+		} else if(address == "/3/multitoggle1/1/1") {
+			bool fullScreenFlag = (bool)message.getArgAsFloat(0);
+			setFullScreen(fullScreenFlag);
+		} else if(address == "/3/multitoggle1/1/3") {
+			mParticleController.invertVelocity();
+		} else if(address == "/3/multitoggle1/1/4") {
+			mParticleController.setRandomParticleVectors((bool)message.getArgAsFloat(0));
 		} else if(address == "/1/bpm_button") {
 			uint mBpmButton = message.getArgAsFloat(0);
 			if(mBpmButton == 1) {
