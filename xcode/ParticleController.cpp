@@ -42,16 +42,42 @@ ParticleController::ParticleController()
 	
 //	textureIterator = mImageFiles.begin();
 	
-	particleMax = 100;
+	// set up our default values
+	mParticleCount = 100;
 	mGravityDir = Vec2f(0.0, 1.0);
+	textureCounter = 0;
+	mAudioScale = .5;
+	mSmoothness = .03;
+	mMinSize = .3;
+	mMaxSize = 1.5;
+	
 	mInput = audio::Input();
 	mInput.start();
-	textureCounter = 0;
+
 }
 
-void ParticleController::setParticleMax(int newMax) {
-	if(newMax > 0 && newMax < 500) {
-		particleMax = newMax;
+// all our fun scaling functions
+
+void ParticleController::setAudioScale(float audioScale) {
+	mAudioScale = audioScale;
+}
+
+void ParticleController::setMinSize(float minSize) {
+	mMinSize = minSize;
+}
+
+void ParticleController::setMaxSize(float maxSize) {
+	mMaxSize = maxSize;
+}
+
+void ParticleController::setSmoothness(float smoothness) {
+	mSmoothness = smoothness;
+}
+
+
+void ParticleController::setParticleMax(int particleCount) {
+	if(particleCount > 0 && particleCount < 300) {
+		mParticleCount = particleCount;
 	}
 }
 
@@ -74,13 +100,13 @@ void ParticleController::update()
 	mFftDataRef = audio::calculateFft( mPcmBuffer->getChannelData( audio::CHANNEL_FRONT_LEFT ), bandCount );
 	
 	// if we're running low on particles, add some more
-	if(mParticles.size() < particleMax) {
-		addParticles(particleMax - mParticles.size());
+	if(mParticles.size() < mParticleCount) {
+		addParticles(mParticleCount - mParticles.size());
 	}
 	
 	// if we have too many particles, remove some
-	if(mParticles.size() > particleMax) {
-		removeParticles(mParticles.size() - particleMax);
+	if(mParticles.size() > mParticleCount) {
+		removeParticles(mParticles.size() - mParticleCount);
 	}
 	
 	mPcmBuffer = mInput.getPcmBuffer();
@@ -103,7 +129,7 @@ void ParticleController::update()
 void ParticleController::draw()
 {	
 	
-	uint16_t bandCount = 16;
+	uint16_t bandCount = 512;
 	
 	if( ! mFftDataRef ) {
 		return;
@@ -118,14 +144,15 @@ void ParticleController::draw()
 	audioLevel = audioLevel / bandCount;
 	//audioLevel = (bufferScratch / bufferSamples) * 1000 + 50;
 	
-	float x = .03;
-	float audioScaler = .75;
 	// run the filter:
-	filteredAudioLevel = ((x * audioLevel + (10-x)*mLastAudioLevel)/10) * audioScaler;
+	filteredAudioLevel = ((mSmoothness * audioLevel + (10-mSmoothness)*mLastAudioLevel)/10) * mAudioScale;
 	// return the result:
 	
-	filteredAudioLevel *= .45;
-	filteredAudioLevel += .3;
+	filteredAudioLevel += mMinSize;
+	
+	if(filteredAudioLevel > mMaxSize) {
+		filteredAudioLevel = mMaxSize;
+	}
 	
 	mLastAudioLevel = filteredAudioLevel;	
 	

@@ -33,12 +33,26 @@ public:
 	void removeParticles( int amt );
 	void setParticleMax( int newMax );
 	void setGravityDir(Vec2f newGravityDir);
+	
+	void setAudioScale(float audioScale);
+	void setSmoothness(float smoothness);
+	void setMinSize(float minSize);
+	void setMaxSize(float maxSize);
+	void setDefaultScale(float defaultScale);
+	void setSpeedScale(float speedScale);
+	
+	float mAudioScale;
+	float mSmoothness;
+	float mMinSize;
+	float mMaxSize;
+	float mDefaultScale;
+	float mSpeedScale;
 
 	std::list<Particle>	mParticles;
 	std::list<Url> mTextures;
 	std::vector<string> mImageFiles;
 	
-	uint particleMax;
+	uint mParticleCount;
 	uint textureBufferMax;
 	
 	uint textureCounter;

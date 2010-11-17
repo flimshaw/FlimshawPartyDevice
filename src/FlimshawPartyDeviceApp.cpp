@@ -94,11 +94,18 @@ void FlimshawPartyDeviceApp::handleOSC()
 		
 		if(address == "/1/particle_count") {
 			mParticleController.setParticleMax((int)(message.getArgAsFloat(0) * 100));
-			
 			sendMessage.addIntArg((int)(message.getArgAsFloat(0) * 100));
 			sendMessage.setAddress("/1/label_particle_count");
 			sendMessage.setRemoteEndpoint(host, port);
 			sender.sendMessage(sendMessage);
+		} else if(address == "/1/audio_scale") {
+			mParticleController.setAudioScale(message.getArgAsFloat(0));
+		} else if(address == "/1/audio_smoothness") {
+			mParticleController.setSmoothness(message.getArgAsFloat(0));
+		} else if(address == "/1/audio_min_size") {
+			mParticleController.setMinSize(message.getArgAsFloat(0));
+		} else if(address == "/1/audio_max_size") {
+			mParticleController.setMaxSize(message.getArgAsFloat(0));
 		} else if(address == "/1/gravity_dir") {
 			mGravityDir = Vec2f(message.getArgAsFloat(0) -1.0f, message.getArgAsFloat(1) -1.0f);
 			mParticleController.setGravityDir(mGravityDir);
@@ -109,8 +116,9 @@ void FlimshawPartyDeviceApp::handleOSC()
 			if(mBpmButton == 1) {
 				mBpmClock.bang();
 			}
+		} else if(address == "/2/config_toggle/1/1") {
+			setFullScreen(!isFullScreen());
 		}
-		
 		
 		// debug functions for OSC info
 		console() << "New message received" << std::endl;
