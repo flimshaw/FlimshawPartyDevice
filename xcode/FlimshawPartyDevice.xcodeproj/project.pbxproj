@@ -18,6 +18,7 @@
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		59B03139129619E400F1E166 /* CharlieParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59B03138129619E400F1E166 /* CharlieParticle.cpp */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		CB241FA9128B3124001A816F /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB241FA8128B3124001A816F /* Particle.cpp */; };
 		CB241FB0128B3149001A816F /* ParticleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB241FAF128B3149001A816F /* ParticleController.cpp */; };
@@ -48,6 +49,8 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		59B03137129619E400F1E166 /* CharlieParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharlieParticle.h; sourceTree = "<group>"; };
+		59B03138129619E400F1E166 /* CharlieParticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharlieParticle.cpp; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* FlimshawPartyDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlimshawPartyDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB241FA7128B3124001A816F /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 			children = (
 				CB241FAF128B3149001A816F /* ParticleController.cpp */,
 				CB6EBBF0128C42A900ED15FD /* ThreadedImage.cpp */,
+				59B03138129619E400F1E166 /* CharlieParticle.cpp */,
 				CB241FA8128B3124001A816F /* Particle.cpp */,
 				00BAE6590E7ED9C10018A608 /* FlimshawPartyDeviceApp.cpp */,
 				CBAD3B801291665800A6283B /* BpmClock.cpp */,
@@ -177,6 +181,7 @@
 				CB241FAE128B3149001A816F /* ParticleController.h */,
 				CB6EBBEF128C42A900ED15FD /* ThreadedImage.h */,
 				CBAD3B7F1291665800A6283B /* BpmClock.h */,
+				59B03137129619E400F1E166 /* CharlieParticle.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				CB2CE3AB128F175E006C92F9 /* OscMessage.cpp in Sources */,
 				CB2CE3AC128F175E006C92F9 /* OscSender.cpp in Sources */,
 				CBAD3B811291665800A6283B /* BpmClock.cpp in Sources */,
+				59B03139129619E400F1E166 /* CharlieParticle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

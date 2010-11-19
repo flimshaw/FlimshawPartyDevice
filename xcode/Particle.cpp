@@ -24,7 +24,7 @@ Particle::Particle( Vec2f loc, string texturePath )
 {
 	mLoc	= loc;
 	mDir	= Vec2f(0.0, 1.0);
-	mVel	= Rand::randFloat( 5.0f ) + 1.0f;
+	mVel	= Rand::randFloat( 5.0f ) + 2.0f;
 	mVelScale = 1.0;
 	mScale	= 1.0f;
 	mColor = Color(Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ), Rand::randFloat( 1.0f ));
@@ -78,8 +78,8 @@ void Particle::update()
 
 void Particle::draw()
 {
-	float centerX = mLoc.x - ((mScale * mTexture.getWidth()) / 2);
-	float centerY = mLoc.y - ((mScale * mTexture.getHeight()) / 2);
+	float centerX = mLoc.x - ((mParticleSize * mTexture.getWidth()) / 2);
+	float centerY = mLoc.y - ((mParticleSize * mTexture.getHeight()) / 2);
 	Rectf rect( centerX, centerY, centerX + (mParticleSize * mTexture.getWidth()), centerY + (mParticleSize * mTexture.getHeight()) );
 	gl::draw(mTexture, rect);
 }

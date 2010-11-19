@@ -14,6 +14,7 @@ using std::list;
 #include "OscListener.h"
 #include "OscSender.h"
 #include "BpmClock.h"
+#include "CharlieParticle.h"
 
 class FlimshawPartyDeviceApp : public AppBasic {
   public:
@@ -26,6 +27,8 @@ class FlimshawPartyDeviceApp : public AppBasic {
 	void handleBpmBang();
 	
 	ParticleController mParticleController;
+	CharlieParticle mCharlieParticle;
+	
 	vector<Url>				mUrls;
 	Vec2f mGravityDir;
 	float particleSize;
@@ -57,7 +60,7 @@ void FlimshawPartyDeviceApp::setup()
 	host = "10.0.0.2";
 	port = 3002;
 	sender.setup(host, port);
-	
+	//mCharlieParticle.setup();
 
 	// the corpse of the old flickr xml loader
 	/*XmlDocument doc( loadUrlStream( "http://api.flickr.com/services/feeds/groups_pool.gne?id=1423039@N24&lang=en-us&format=rss_200" ) );	

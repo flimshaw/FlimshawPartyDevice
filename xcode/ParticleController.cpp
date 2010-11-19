@@ -48,6 +48,7 @@ ParticleController::ParticleController()
 	textureCounter = 0;
 	mAudioScale = .1;
 	mSmoothness = .1;
+	mSpeedScale = 1.0;
 	mMinSize = .3f;
 	mMaxSize = 1.0f;
 	mDefaultScale = 1.0;
@@ -70,6 +71,7 @@ void ParticleController::setRandomParticleVectors(bool randomParticleVectors) {
 }
 
 void ParticleController::setSpeedScale(float speedScale) {
+	mSpeedScale = speedScale;
 	for( list<Particle>::iterator p = mParticles.begin(); p != mParticles.end(); ){
 		p->setVelScale(speedScale);
 		++p;
@@ -225,6 +227,9 @@ void ParticleController::addParticles( int amt )
 			}
 			if(nextImage != "") {
 				Particle newParticle = Particle( Vec2f( x, y ), "/flickr/" + nextImage );
+				newParticle.setScale(mDefaultScale);
+				newParticle.setGravityDir(mGravityDir);
+				newParticle.setVelScale(mSpeedScale);
 				mParticles.push_back( newParticle );
 			}
 		}
